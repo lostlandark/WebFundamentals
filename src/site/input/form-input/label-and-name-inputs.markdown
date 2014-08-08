@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "合适的标签和名称输入"
-description: "表单很难在移动设备上完全表现出来。体验最佳的表单是那些仅需少量输入的表单。"
-introduction: "表单很难在移动设备上完全表现出来。体验最佳的表单是那些仅需少量输入的表单。好的表单能够提供给用户恰逢时宜的输入类型。键盘应该改变类型以匹配用户的输入场景。当用户在日历中添加一个事件时，请使你的用户时刻保持被提醒的状态。认证工具则应该告诉用户在提交表格前需要做些什么。"
+title: "���ʵı�ǩ�����������"
+description: "�����������ƶ��豸����ȫ���ֳ�����������ѵı�������Щ������������ı�����"
+introduction: "�����������ƶ��豸����ȫ���ֳ�����������ѵı�������Щ������������ı������õı����ܹ��ṩ���û�ǡ��ʱ�˵��������͡�����Ӧ�øı�������ƥ���û������볡�������û�������������һ���¼�ʱ����ʹ����û�ʱ�̱��ֱ����ѵ�״̬����֤������Ӧ�ø����û����ύ����ǰ��Ҫ��Щʲô��"
 article:
   written_on: 2014-04-30
   updated_on: 2014-04-30
@@ -12,15 +12,15 @@ rel:
 collection: form-input
 key-takeaways:
   label-and-name:
-    - 请在表单输入中使用<code>label</code>s ，同时保证他们在输入框在激活时是可见的。
-    - 请使用 <code>placeholder</code>s 为用户提供你所期待的向导
-    - 请帮助浏览器自动完成表单，使用已建立的<code>name</code>'s
-      作为元素和包括<code>autocomplete</code> 属性。
+    - �ڱ����������ʹ��<code>label</code>��ͬʱ��֤������������ڼ���ʱ�ǿɼ��ġ�
+    - ʹ�� <code>placeholder</code>Ϊ�û��ṩ�����ڴ���ָ����
+    - ����������Զ���ɱ�����ʹ���ѽ�����<code>name</code>
+      ��ΪԪ�ز�ʹ��<code>autocomplete</code> ���ԡ�
 remember:
   use-placeholders:
-    - 当焦点被一个元素占用时，占位符会自动隐藏。因此，占位符不能替代标签。他们应该被用来作为所需格式和所需内容上的一种援助，以帮助并为用户提供导航。
+    - ��Ԫ���е����ݱ��滻ʱ��ռλ�����Զ����ء���ˣ�ռλ�����������ǩ������Ӧ�ñ�������Ϊ�����ʽ�������ϵ�һ�ְ�����ָ���û���
   recommend-input:
-    - Auto-complete only works when the form method is post.
+    - ֻ�е���������Ϊ�ύ��ʱ���Զ���ɲŻṤ����
   use-datalist:
     - The <code>datalist</code> values are provided as suggestions, and users
       are not restricted to the suggestions provided.
@@ -58,18 +58,18 @@ remember:
 
 {% include modules/takeaway.liquid list=page.key-takeaways.label-and-name %}
 
-### 标签的重要性
+### ��ǩ����Ҫ��
 
-`label` 元素为用户提供操作方向，告诉他们在一个表单元素中什么是他们所需要的信息。通过放置输入元素在`label`元素中，或者使用"`for`"属性，每一个`label`和就会和每一个输入元素相互关联。通过给表单元素添加标注同样也可以帮助扩大触摸目标的面积：即如果用户把焦点集中在输入元素上时，可以触摸标注或者是输入框的方式来实现。 
+`label` Ԫ��Ϊ�û��ṩ���򣬸���������һ������Ԫ���е�������Ϣ��ʲô��ͨ����`label`Ԫ���з�������򣬻���ʹ�á�`for`�����ԣ�ÿһ��`label`�;ͻ��ÿһ��������໥������ͨ��������Ԫ�����ӱ�עͬ��Ҳ���԰���������Ŀ��������������û��ѽ��㼯�����������ʱ�����Դ�����ע�����������ķ�ʽ��ʵ�֡� 
 {% include_code _code/order.html labels %}
 
-### label尺寸与位置
+### ��ǩ�ߴ���λ��
 
-labels与输入元素应该有足够的尺寸以便容易点击。在描述视窗内，标签字符应当位于输入元素的上方。在全局视窗内，标签字符应当位于输入元素的两旁。请确保标签字符与其相应的输入框同时可见。请注意自定义滚动处理程序，它可能将输入元素移动至页面顶部而隐藏标签。或者是位于输入元素下方的labels会被虚拟键盘而遮盖。
+��ǩ�������Ӧ�����㹻��ĳߴ��Ա������������ӿ��У���ǩ�ֶ�Ӧ��λ���������Ϸ����ں����ӿ��ڣ���ǩ�ַ�Ӧ��λ��������һ�ԡ���ȷ����ǩ�ֶ�������Ӧ�������ͬʱ�ɼ�����ע���Զ�������������������ܽ�������ƶ���ҳ�涥�������ر�ǩ��������λ��������·��ı�ǩ�ᱻ������̶��ڸǡ�
 
-### 使用占位符
+### ʹ��ռλ��
 
-占位符属性为用户提供输入内容提示，它通过高亮文本显示直到元素得到点击为止。
+ռλ������Ϊ�û��ṩ����������ʾ����ͨ�������ı���ʾֱ��Ԫ�ر�ѡ��Ϊֹ��
 
 <input type="text" placeholder="MM-YYYY">
 
@@ -80,32 +80,30 @@ labels与输入元素应该有足够的尺寸以便容易点击。在描述视�
 
 {% include modules/remember.liquid title="Remember" list=page.remember.use-placeholders %}
 
-### 使用元数据使自动完成成为可能
+### ʹ��Ԫ����ʹ�Զ���ɳ�Ϊ����
 
-当网站为用户节省时间，自动填入通用字符，例如：名字、邮件地址和其他常用的表字符时，用户会感到非常满足。添加元数据能够帮助减少潜在的输入错误 - 特别是在虚拟键盘和小型设备上。
+����վΪ�û���ʡʱ�䣬�Զ�����ͨ���ַ������磺���֡��ʼ���ַ���������õı��ַ�ʱ���û���е��ǳ��м�������Ԫ�����ܹ���������Ǳ�ڵ�������� - �ر�����������̺�С���豸�ϡ�
 
-浏览器会使用heuristics来决定哪个字符他们可以自动完成[auto-populate](https://support.google.com/chrome/answer/142893)[based on
-previously specified data by the
-user](https://support.google.com/chrome/answer/142893)，并且，通过在输入元素中提供名字属性和自动完成属性，你可以给予浏览器提示。 
+�������[�����û�֮ǰ��������ض�����](https://support.google.com/chrome/answer/142893)��ʹ�ö�������ʽ������������Щ�ֶο���[�Զ����](https://support.google.com/chrome/answer/142893)�����ң�ͨ������������ṩ�������Ժ��Զ�������ԣ�����Ը����������ʾ�� 
 
-举例来说，为了提示浏览器它应该自动完成表单，包括用户姓名，邮件地址和手机号码，你应该使用:
+������˵��Ϊ����ʾ�������Ӧ���Զ�����û��������ʼ���ַ���ֻ����룬��Ӧ��ʹ��:
 
 {% include_code _code/order.html autocomplete %}
 
 
-### Recommended input `name` and `autocomplete` attribute values
+### �Ƽ��������`name`��`autocomplete`����ֵ
 
 <table class="table-3 autocompletes">
   <thead>
     <tr>
-      <th data-th="Content type">Content type</th>
-      <th data-th="name attribute"><code>name</code> attribute</th>
-      <th data-th="autocomplete attribute"><code>autocomplete</code> attribute</th>
+      <th data-th="Content type">��������</th>
+      <th data-th="name attribute"><code>name</code>����</th>
+      <th data-th="autocomplete attribute"><code>autocomplete</code>����</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td data-th="Content type">Name</td>
+      <td data-th="Content type">����</td>
       <td data-th="name attribute">
         <code>name</code>
         <code>fname</code>
@@ -120,7 +118,7 @@ user](https://support.google.com/chrome/answer/142893)，并且，通过在输�
       <td data-th="autocomplete attribute"><code>email</code></td>
     </tr>
     <tr>
-      <td data-th="Content type">Address</td>
+      <td data-th="Content type">��ַ</td>
       <td data-th="name attribute">
         <code>address</code>
         <code>city</code>
@@ -141,7 +139,7 @@ user](https://support.google.com/chrome/answer/142893)，并且，通过在输�
       </td>
     </tr>
     <tr>
-      <td data-th="Content type">Phone</td>
+      <td data-th="Content type">�绰</td>
       <td data-th="name attribute">
         <code>phone</code>
         <code>mobile</code>
@@ -154,7 +152,7 @@ user](https://support.google.com/chrome/answer/142893)，并且，通过在输�
       <td data-th="autocomplete attribute"><code>tel</code></td>
     </tr>
     <tr>
-      <td data-th="Content type">Credit Card</td>
+      <td data-th="Content type">���ÿ�</td>
       <td data-th="name attribute">
         <code>ccname</code>
         <code>cardnumber</code>
@@ -177,18 +175,15 @@ user](https://support.google.com/chrome/answer/142893)，并且，通过在输�
   </tbody>
 </table>
 
-The `autocomplete` attributes should be prefixed with either `shipping` or `billing`, depending on the context.
+`autocomplete`����Ӧ�ô���`shipping`��`billing`ǰ׺�����������ݾ�����
 
 {% include modules/remember.liquid title="Remember" list=page.remember.recommend-input %}
 
-### `autofocus`自动聚焦属性
+### `autofocus`����
 
-在一些表单中，例如在Google主页，你唯一想让用户做的事情是填写特定的字符，因此你可以添加`autofocus`属性。当添加自动聚焦属性后，桌面浏览器会立即将聚焦于输入表单，目的是为了让用户更容易开始使用这个表单。移动浏览器则忽略了`autofocus`属性，这是为了防止键盘随机不定的出现的情况 to prevent the keyboard from randomly
-appearing。
+��һЩ�����У�������Google��ҳ����Ψһ�����û�������������д�ض��ֶΣ�������������`autofocus`���ԡ������Ӹ����Ժ�������������������������������ֶΣ�ʹ���û��������ɿ��ٿ�ʼʹ�ñ������ƶ����������`autofocus`���ԣ�����Ϊ�˷�ֹ����������ֵ������
 
-在使用自动聚焦属性时请注意，因为它可能取得键盘焦点，并潜在地禁用了用作导航的退格符
-and potentially preventing the backspace character from being used for
-navigation。
+��ʹ���Զ���ȡ��������ʱ��ע�⣬��Ϊ������ռ���̽��㣬��Ǳ�ڵؽ����������������˸����
 
 {% highlight html %}
 <input type="text" autofocus ...>

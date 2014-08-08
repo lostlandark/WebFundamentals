@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "æä¾›å®æ—¶è®¤è¯"
-description: "å®æ—¶æ•°æ®è®¤è¯ä¸ä»…ä¿è¯ä½ çš„æ•°æ®æ¡ç›®æ¸…æ™°ï¼Œå®ƒåŒæ—¶ä¹Ÿå¸®åŠ©æé«˜ç”¨æˆ·ä½“éªŒã€‚ç›®å‰ä¸»æµæµè§ˆå™¨éƒ½æ‹¥æœ‰ä¸€äº›å†…ç½®å·¥å…·ä»¥å¸®åŠ©æä¾›å®æ—¶è®¤è¯ï¼Œå¹¶ä¸”å¯ä»¥é˜²æ­¢ç”¨æˆ·æäº¤æ— æ•ˆä¿¡æ¯ã€‚è§†è§‰æç¤ºåº”è¯¥è¢«ç”¨æ¥æç¤ºä¸€ä¸ªè¡¨å•æ˜¯å¦å‡†ç¡®åœ°è¢«å¡«å†™ã€‚"
-introduction: "å®æ—¶æ•°æ®è®¤è¯ä¸ä»…ä¿è¯ä½ çš„æ•°æ®æ¡ç›®æ¸…æ™°ï¼Œå®ƒåŒæ—¶ä¹Ÿå¸®åŠ©æé«˜ç”¨æˆ·ä½“éªŒã€‚ç›®å‰ä¸»æµæµè§ˆå™¨éƒ½æ‹¥æœ‰ä¸€äº›å†…ç½®å·¥å…·ä»¥å¸®åŠ©æä¾›å®æ—¶è®¤è¯ï¼Œå¹¶ä¸”å¯ä»¥é˜²æ­¢ç”¨æˆ·æäº¤æ— æ•ˆä¿¡æ¯ã€‚è§†è§‰æç¤ºåº”è¯¥è¢«ç”¨æ¥æç¤ºä¸€ä¸ªè¡¨å•æ˜¯å¦å‡†ç¡®åœ°è¢«å¡«å†™ã€‚"
+title: "Ìá¹©ÊµÊ±ÑéÖ¤"
+description: "ÊµÊ±Êı¾İÑéÖ¤²»½ö±£Ö¤ÄãµÄÊı¾İÌõÄ¿ÇåÎú£¬Í¬Ê±Ò²°ïÖúÌá¸ßÓÃ»§ÌåÑé¡£Ä¿Ç°Ö÷Á÷ä¯ÀÀÆ÷¶¼ÓµÓĞÒ»Ğ©ÄÚÖÃ¹¤¾ßÒÔ°ïÖúÌá¹©ÊµÊ±ÑéÖ¤£¬²¢ÇÒ¿ÉÒÔ·ÀÖ¹ÓÃ»§Ìá½»ÎŞĞ§ĞÅÏ¢¡£ÊÓ¾õÌáÊ¾Ó¦¸Ã±»ÓÃÀ´ÌáÊ¾Ò»¸ö±íµ¥ÊÇ±»·ñ×¼È·µØÌîĞ´¡£"
+introduction: "ÊµÊ±Êı¾İÑéÖ¤²»½ö±£Ö¤ÄãµÄÊı¾İÌõÄ¿ÇåÎú£¬Í¬Ê±Ò²°ïÖúÌá¸ßÓÃ»§ÌåÑé¡£Ä¿Ç°Ö÷Á÷ä¯ÀÀÆ÷¶¼ÓµÓĞÒ»Ğ©ÄÚÖÃ¹¤¾ßÒÔ°ïÖúÌá¹©ÊµÊ±ÑéÖ¤£¬²¢ÇÒ¿ÉÒÔ·ÀÖ¹ÓÃ»§Ìá½»ÎŞĞ§ĞÅÏ¢¡£ÊÓ¾õÌáÊ¾Ó¦¸Ã±»ÓÃÀ´ÌáÊ¾Ò»¸ö±íµ¥ÊÇ·ñ±»×¼È·µØÌîĞ´¡£"
 article:
   written_on: 2014-04-30
   updated_on: 2014-04-30
@@ -12,11 +12,11 @@ rel:
 collection: form-input
 key-takeaways:
   provide-real-time-validation:
-    - åˆ©ç”¨æµè§ˆå™¨å†…ç½®çš„å®æ—¶è®¤è¯å±æ€§ï¼Œæ¯”å¦‚ï¼š
+    - ÀûÓÃä¯ÀÀÆ÷ÄÚÖÃµÄÊµÊ±ÑéÖ¤ÊôĞÔ£¬±ÈÈç£º
       <code>pattern</code>, <code>required</code>, <code>min</code>,
-      <code>max</code>, ç­‰ç­‰ã€‚
-    - ä½¿ç”¨JavaScriptå¹¶ä¸”é™åˆ¶è®¤è¯APIæ»¡è¶³æ›´å¤æ‚çš„è®¤è¯éœ€æ±‚ã€‚
-    - å®æ—¶æ˜¾ç¤ºè®¤è¯é”™è¯¯ï¼Œå¹¶ä¸”å¦‚æœç”¨æˆ·è¯•å›¾æäº¤æ— æ•ˆè¡¨å•ï¼Œé‚£ä¹ˆå°±æ˜¾ç¤ºå‡ºç”¨æˆ·éœ€è¦ä¿®æ”¹çš„æ ‡ç­¾ã€‚
+      <code>max</code>, µÈµÈ¡£
+    - Ê¹ÓÃJavaScript²¢ÇÒÏŞÖÆÑéÖ¤APIÂú×ã¸ü¸´ÔÓµÄÑéÖ¤ĞèÇó¡£
+    - ÊµÊ±ÏÔÊ¾ÑéÖ¤´íÎó£¬²¢ÇÒÈç¹ûÓÃ»§ÊÔÍ¼Ìá½»ÎŞĞ§±íµ¥£¬ÄÇÃ´¾ÍÏÔÊ¾³öÓÃ»§ĞèÒªĞŞ¸ÄµÄ×Ö¶Î¡£
 remember:
   use-placeholders:
     - Placeholders disappear as soon as focus is placed in an element, thus
@@ -28,9 +28,9 @@ remember:
     - The <code>datalist</code> values are provided as suggestions, and users
       are not restricted to the suggestions provided.
   provide-real-time-validation:
-    - å³ä½¿æœ‰ä½¿ç”¨ç«¯çš„è®¤è¯ï¼Œä½†æ˜¯è®¤è¯æœåŠ¡å™¨ä¸Šçš„æ•°æ®ä»¥ç¡®ä¿ä½ æ•°æ®çš„ç»Ÿä¸€æ€§å’Œå®‰å…¨æ€§æ˜¯éå¸¸é‡è¦çš„ã€‚
+    - ¼´Ê¹ÓĞ¿Í»§¶ËµÄÊäÈëÑéÖ¤£¬ÑéÖ¤·şÎñÆ÷ÉÏµÄÊı¾İÒÔÈ·±£ÄãÊı¾İµÄÍ³Ò»ĞÔºÍ°²È«ĞÔÈÔ¾ÉÊÇ·Ç³£ÖØÒªµÄ¡£
   show-all-errors:
-    - ä½ åº”è¯¥å‘ç”¨æˆ·ä¸€æ¬¡æ€§å±•ç¤ºè¡¨å•çš„æ‰€æœ‰é—®é¢˜ï¼Œè€Œä¸æ˜¯é˜¶æ®µæ€§åœ°å±•ç¤ºã€‚
+    - ÄãÓ¦¸ÃÏòÓÃ»§Ò»´ÎĞÔÕ¹Ê¾±íµ¥µÄËùÓĞÎÊÌâ£¬¶ø²»ÊÇ½×¶ÎĞÔµØÕ¹Ê¾¡£
   request-auto-complete-flow:
     - If you're asking for any kind of personal information or credit card
       data, ensure the page is served via SSL.  Otherwise the dialog will
@@ -50,84 +50,80 @@ remember:
 
 {% include modules/takeaway.liquid list=page.key-takeaways.provide-real-time-validation %}
 
-### ä½¿ç”¨è¿™äº›å±æ€§ä»¥è®¤è¯è¾“å…¥
+### Ê¹ÓÃÕâĞ©ÊôĞÔÒÔÑéÖ¤ÊäÈë
 
-#### `pattern` æ¨¡ç‰ˆå±æ€§
+#### `pattern` ÊôĞÔ
 
-`pattern` æ¨¡æ¿å±æ€§è¯¦ç»†é˜è¿°äº†ç”¨ä½œè®¤è¯è¾“å…¥è¡¨å•çš„ [æ­£åˆ™è¡¨è¾¾å¼ï¼ˆregular
-expressionï¼‰](http://en.wikipedia.org/wiki/Regular_expression) ã€‚ä¾‹å¦‚ï¼šéªŒè¯ä¸€ä¸ªç¾å›½é‚®ç¼–ï¼ˆ5ä¸ªæ•°å­—ï¼Œæœ‰æ—¶å¯èƒ½ç”±1ä¸ªç ´æŠ˜å·å†åŠ ä¸Š4ä¸ªé¢å¤–çš„æ•°å­—ï¼‰ï¼Œæˆ‘ä»¬ä¼šè®¾ç½®åƒè¿™æ ·çš„`pattern` :
+`pattern` ÊôĞÔÊ¹ÓÃÒ»¸ö [ÕıÔò±í´ïÊ½£¨regular
+expression£©](http://en.wikipedia.org/wiki/Regular_expression)À´ÑéÖ¤ÊäÈë×Ö¶Î ¡£ÀıÈç£ºÑéÖ¤Ò»¸öÃÀ¹úÓÊ±à£¨5¸öÊı×Ö£¬ÓĞÊ±¿ÉÄÜÓÉ1¸öÆÆÕÛºÅÔÙ¼ÓÉÏ4¸ö¶îÍâµÄÊı×Ö£©£¬ÎÒÃÇ»áÏñÕâÑùÉèÖÃ`pattern` :
 
 {% highlight html %}
 <input type="text" pattern="^\d{5,6}(?:[-\s]\d{4})?$" ...>
 {% endhighlight %}
 
-##### Common regular expression patterns
+##### ³£¼ûÕıÔò±í´ïÊ½pattern£¨ÏÂ±í¾ùÎªÃÀ¹ú³£ÓÃÖµ£©
 
 <table class="table-2 tc-heavyright">
   <thead>
     <tr>
-      <th data-th="Description">æè¿°</th>
-      <th data-th="Regular expression">Regular expression</th>
+      <th data-th="Description">ÃèÊö</th>
+      <th data-th="Regular expression">ÕıÔò±í´ïÊ½</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td data-th="Description">é‚®ç¼–</td>
+      <td data-th="Description">Í¨ĞÅµØÖ·</td>
       <td data-th="Regular expression"><code>[a-zA-Z\d\s\-\,\#\.\+]+</code></td>
     </tr>
     <tr>
-      <td data-th="Description">Zip Code (ç¾å›½é‚®ç¼–)</td>
+      <td data-th="Description">ÓÊ±à(ÃÀ¹ú)</td>
       <td data-th="Regular expression"><code>^\d{5,6}(?:[-\s]\d{4})?$</code></td>
     </tr>
     <tr>
-      <td data-th="Description">IPåœ°å€</td>
+      <td data-th="Description">IPµØÖ·</td>
       <td data-th="Regular expression"><code>^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$</code></td>
     </tr>
     <tr>
-      <td data-th="Description">ä¿¡ç”¨å¡å·ç </td>
+      <td data-th="Description">ĞÅÓÃ¿¨ºÅÂë</td>
       <td data-th="Regular expression"><code>^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|6(?:011|5[0-9]{2})[0-9]{12}|(?:2131|1800|35\d{3})\d{11})$</code></td>
     </tr>
     <tr>
-      <td data-th="Description">ç¤¾ä¼šå®‰å…¨ä¿é™©å·ç </td>
+      <td data-th="Description">Éç»á°²È«±£ÏÕºÅÂë</td>
       <td data-th="Regular expression"><code>^\d{3}-\d{2}-\d{4}$</code></td>
     </tr>
     <tr>
-      <td data-th="Description">åŒ—ç¾ç”µè¯å·ç </td>
+      <td data-th="Description">±±ÃÀµç»°ºÅÂë</td>
       <td data-th="Regular expression"><code>^(?:(?:\+?1\s*(?:[.-]\s*)?)?(?:\(\s*([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9])\s*\)|([2-9]1[02-9]|[2-9][02-8]1|[2-9][02-8][02-9]))\s*(?:[.-]\s*)?)?([2-9]1[02-9]|[2-9][02-9]1|[2-9][02-9]{2})\s*(?:[.-]\s*)?([0-9]{4})(?:\s*(?:#|x\.?|ext\.?|extension)\s*(\d+))?$</code></td>
     </tr>
   </tbody>
 </table>
 
-#### `required` å±æ€§
+#### `required` ÊôĞÔ
 
-å¦‚æœ`required`å±æ€§å‡ºç°ï¼Œé‚£ä¹ˆè¡¨å•åœ¨èƒ½å¤Ÿæäº¤å‰å¿…é¡»åŒ…å«æœ‰æ•ˆä¿¡æ¯ã€‚ä¾‹å¦‚ï¼šä½¿é‚®ç¼–åœ°å€è¢«è¦æ±‚ï¼Œæˆ‘ä»¬ä¼šç®€å•åœ°åŠ ä¸Š`required`å±æ€§:
+Èç¹û`required`ÊôĞÔ³öÏÖ£¬ÄÇÃ´¸Ã×Ö¶ÎÔÚÌá½»Ç°±ØĞë°üº¬ÓĞĞ§ĞÅÏ¢¡£ÀıÈç£ºÒªÇó±ØĞëÌîĞ´ÓÊ±àµØÖ·£¬ÎÒÃÇÖ»Òª¼ÓÉÏ`required`ÊôĞÔ:
 
 {% highlight html %}
 <input type="text" required pattern="^\d{5,6}(?:[-\s]\d{4})?$" ...>
 {% endhighlight %}
 
-#### `min`, `max` and `step` æœ€å°ã€æœ€å¤§å’Œæ­¥éª¤å±æ€§
+#### `min`, `max` and `step` ÊôĞÔ
 
-å¯¹äºæ•°å­—è¾“å…¥ç±»å‹ï¼Œåƒæ•°å­—æˆ–èŒƒå›´ï¼Œè¿˜æœ‰æ—¥æœŸæˆ–æ—¶é—´è¾“å…¥ï¼Œå½“æ»‘åŠ¨å’Œç¼©æ”¾è°ƒæ•´æ—¶ï¼Œä½ èƒ½å¤Ÿè¯¦ç»†é˜è¿°å®ƒä»¬çš„æœ€å°å€¼å’Œæœ€å¤§å€¼ã€‚åŒæ ·åœ°ï¼Œä¹Ÿèƒ½å¤Ÿè¯¦ç»†é˜è¿°å®ƒä»¬æ¯ä¸€ä¸ªéœ€è¦å¢åŠ æˆ–å‡å°‘å¤šå°‘ã€‚ä¾‹å¦‚ï¼šä¸€åŒé‹å­çš„å°ºå¯¸åº”è¯¥è®¾ç½®ä¸€ä¸ªæœ€å°å€¼1å’Œä¸€ä¸ªæœ€å¤§å€¼13ï¼Œè°ƒæ•´é—´éš”0.5ã€‚
+¶ÔÓÚÊıÖµÊäÈëÀàĞÍ£¬ÏñÊı×Ö»ò·¶Î§£¬»¹ÓĞÈÕÆÚ»òÊ±¼äÊäÈë£¬µ±»¬¶¯»òËõ·Åµ÷ÕûÊ±£¬Äã¿ÉÒÔ¶¨ÒåËüÃÇµÄ×îĞ¡ÖµºÍ×î´óÖµ¡£Í¬ÑùµØ£¬Ò²ÄÜ¹»¶¨ÒåËûÃÇ²½Ôö/¼õÁ¿¡£ÀıÈç£ºĞ¬×ÓµÄ³ß´çÓ¦¸ÃÉèÖÃ×îĞ¡ÖµÎª1£¬×î´óÖµÎª13£¬²½½øÖµ0.5¡£
 
 {% highlight html %}
 <input type="number" min="1" max="13" step="0.5" ...>
 {% endhighlight %}
 
-#### `maxlength` æœ€å¤§é•¿åº¦å±æ€§
+#### `maxlength` ÊôĞÔ
 
-`maxlength` å±æ€§èƒ½å¤Ÿè¢«ç”¨æ¥è¯´æ˜ä¸€ä¸ªè¾“å…¥æ¡†æˆ–æ–‡æœ¬æ¡†çš„æœ€é•¿å­—ç¬¦é•¿åº¦ã€‚å¹¶ä¸”åœ¨å½“ä½ æƒ³é™åˆ¶ç”¨æˆ·æä¾›çš„ä¿¡æ¯é•¿åº¦æ—¶ï¼Œä¹Ÿéå¸¸æœ‰ç”¨ã€‚ä¾‹å¦‚ï¼šå‡è®¾ä½ æƒ³é™åˆ¶ä¸€ä¸ªæ–‡ä»¶ååœ¨12ä¸ªå­—ç¬¦ä»¥å†…ï¼Œä½ å¯ä»¥ä½¿ç”¨å¦‚ä¸‹æ‰€ç¤ºè¯­å¥ï¼š
+`maxlength` ÊôĞÔÄÜ¹»±»ÓÃÀ´ËµÃ÷Ò»¸öÊäÈë¿ò»òÎÄ±¾¿òµÄ×î¶à×Ö·ûÊı¡£µ±ÄãÏëÏŞÖÆÓÃ»§Ìá¹©µÄĞÅÏ¢³¤¶ÈÊ±£¬·Ç³£ÓĞÓÃ¡£ÀıÈç£ºÈç¹ûÄãÏëÏŞÖÆÒ»¸öÎÄ¼şÃûÔÚ12¸ö×Ö·ûÒÔÄÚ£¬Äã¿ÉÒÔÊ¹ÓÃÈçÏÂËùÊ¾Óï¾ä£º
 {% highlight html %}
 <input type="text" id="83filename" maxlength="12" ...>
 {% endhighlight %}
 
-#### `novalidate` å±æ€§
+#### `novalidate` ÊôĞÔ
 
-åœ¨ä¸€äº›æƒ…å†µä¸‹ï¼Œä½ å¯èƒ½æƒ³å…è®¸ç”¨æˆ·æäº¤ä¸€ä¸ªå³ä½¿åŒ…å«äº†æ— æ•ˆè¾“å…¥çš„è¡¨å•ã€‚é‚£ä¹ˆç»™è¡¨å•å…ƒç´ æ·»åŠ novalidateå±æ€§ï¼Œæˆ–è€…æ·»åŠ å•ç‹¬çš„è¾“å…¥æ ‡ç­¾å°±å¯ä»¥åŠåˆ°ã€‚åœ¨è¿™ç§æƒ…å†µä¸‹ï¼Œå¦‚æœè¡¨å•éªŒè¯äº†è¾“å…¥ï¼Œæ‰€æœ‰çš„ä¼ªç±»å’ŒJavaScript APIsä»ç„¶ä¼šå…è®¸ä½ æ£€æŸ¥ã€‚
-In some cases, you may want to allow the user to submit the form even if it
-contains invalid input. To do this, add the `novalidate` attribute to the form
-element, or individual input fields. In this case, all pseudo classes and
-JavaScript APIs will still allow you to check if the form validates.
+ÔÚÄ³Ğ©Çé¿öÏÂ£¬Äã¿ÉÄÜÒ²»áÔÊĞíÓÃ»§Ìá½»Ò»¸ö°üº¬ÁËÎŞĞ§ÊäÈëµÄ±íµ¥¡£¿ÉÒÔ¸ø±íµ¥ÔªËØ»òÌØ¶¨ÊäÈë×Ö¶ÎÌí¼ÓnovalidateÊôĞÔ¡£ÔÚÕâÖÖÇé¿öÏÂ£¬Èç¹û±íµ¥ÑéÖ¤ÁËÊäÈë£¬ËùÓĞµÄÎ±ÀàºÍJavaScript APIsÈÔÈ»»áÔÊĞíÄã¼ì²é¡£
 
 {% highlight html %}
 <form role="form" novalidate>
@@ -138,90 +134,89 @@ JavaScript APIs will still allow you to check if the form validates.
 
 {% include modules/remember.liquid title="Remember" list=page.remember.provide-real-time-validation %}
 
-### ä½¿ç”¨JavaScriptä»¥åº”å¯¹æ›´å¤æ‚çš„å®æ—¶è®¤è¯
+### Ê¹ÓÃJavaScriptÒÔÓ¦¶Ô¸ü¸´ÔÓµÄÊµÊ±ÑéÖ¤
 
-å½“å†…ç½®è®¤è¯åŠ ä¸Šæ­£å½“è¡¨è¾¾å¼ä¸å¤Ÿæ—¶ï¼Œä½ å¯ä»¥ä½¿ç”¨[Constrains Validation API](http://dev.w3.org/html5/spec-preview/constraints.html#constraint-validation)ï¼Œè¿™æ˜¯ä¸€æ¬¾å¼ºæœ‰åŠ›çš„å·¥å…·ï¼Œç”¨æ¥ç®¡ç†è‡ªå®šä¹‰è®¤è¯ã€‚APIå…è®¸ä½ è®¾ç½®ä¸€ä¸ªè‡ªå®šä¹‰é”™è¯¯ï¼Œæ£€æŸ¥å…ƒç´ æ˜¯å¦æœ‰æ•ˆï¼Œè¿˜æœ‰æ€»ç»“å‡ºä¸€ä¸ªå…ƒç´ æ— æ•ˆçš„åŸå› ï¼š
+µ±ÄÚÖÃÑéÖ¤¼ÓÉÏÕıµ±±í´ïÊ½²»¹»Ê±£¬Äã¿ÉÒÔÊ¹ÓÃ[Constrains Validation API](http://dev.w3.org/html5/spec-preview/constraints.html#constraint-validation)£¬ÕâÊÇÒ»¿îÇ¿ÓĞÁ¦µÄ¹¤¾ß£¬ÓÃÀ´¹ÜÀí×Ô¶¨ÒåÑéÖ¤¡£APIÔÊĞíÄãÉèÖÃÒ»¸ö×Ô¶¨Òå´íÎó£¬¼ì²éÔªËØÊÇ·ñÓĞĞ§£¬»¹ÓĞ×Ü½á³öÒ»¸öÔªËØÎŞĞ§µÄÔ­Òò£º
 
 <table class="table-2 tc-heavyright">
   <thead>
     <tr>
       <th data-th="API">API</th>
-      <th data-th="Description">Description</th>
+      <th data-th="Description">ÃèÊö</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td data-th="API"><code>setCustomValidity()</code></td>
-      <td data-th="Description">Sets a custom validation message and the <code>customError</code> property of the <code>ValidityState</code> object to <code>true</code>.</td>
+      <td data-th="Description">ÉèÖÃ×Ô¶¨ÒåÑéÖ¤ĞÅÏ¢£¬²¢ÉèÖÃ<code>ValidityState</code>¶ÔÏóµÄ<code>customError</code>ÊôĞÔÎª<code>true</code>¡£</td>
     </tr>
     <tr>
       <td data-th="API"><code>validationMessage</code></td>
-      <td data-th="Description">Returns a string with the reason the input failed the validation test.</td>
+      <td data-th="Description">·µ»ØÒ»¸ö×Ö·û´®£¬ÆäÄÚÈİÎªÊäÈë¿òÃ»ÓĞÍ¨¹ıÑéÖ¤µÄÔ­Òò¡£</td>
     </tr>
     <tr>
       <td data-th="API"><code>checkValidity()</code></td>
-      <td data-th="Description">Returns <code>true</code> if the element satisfies all of it's constraints, and <code>false</code> otherwise.</td>
+      <td data-th="Description">Èç¹ûÔªËØÂú×ãÆäËùÓĞµÄÏŞÖÆÌõ¼şÔò·µ»Ø<code>true</code>£¬·ñÔòÎª<code>false</code>¡£</td>
     </tr>
     <tr>
       <td data-th="API"><code>validity</code></td>
-      <td data-th="Description">Returns a <code>ValidityState</code> object representing the validity states of the element.</td>
+      <td data-th="Description">·µ»Ø<code>ValidityState</code>¶ÔÏóÒÔÏÔÊ¾ÔªËØµÄÓĞĞ§ĞÔ×´Ì¬¡£</td>
     </tr>
   </tbody>
 </table>
 
-#### è®¾ç½®è‡ªå®šä¹‰è®¤è¯ä¿¡æ¯
+#### ÉèÖÃ×Ô¶¨ÒåÑéÖ¤ĞÅÏ¢
 
-å¦‚æœä¸€ä¸ªè¡¨å•è®¤è¯å¤±è´¥ï¼Œé‚£ä¹ˆä½¿ç”¨`setCustomValidity()`æ¥æ ‡è®°æ— æ•ˆæ ‡å•å¹¶ä¸”è§£é‡Šä¸ºä»€ä¹ˆè¡¨å•æ— æ•ˆã€‚ä¾‹å¦‚ï¼šä¸€ä¸ªæ³¨å†Œè¡¨å•å¯èƒ½ä¼šè¦æ±‚ç”¨æˆ·è¾“å…¥ä¸¤æ¬¡é‚®ç®±åœ°å€ä»¥ç¡®è®¤ä»–ä»¬çš„é‚®ä»¶åœ°å€ã€‚åœ¨ç¬¬äºŒæ¬¡è¾“å…¥ä½¿ç”¨ä¸€ä¸ªæ¨¡ç³Šäº‹ä»¶ä»¥è®¤è¯ä¸¤æ¬¡è¾“å…¥å’Œè®¾ç½®åˆé€‚çš„ç½‘é¡µå›åº”ã€‚ä¾‹å¦‚ï¼š
+Èç¹ûÒ»¸ö×Ö¶ÎÑéÖ¤Ê§°Ü£¬ÄÇÃ´Ê¹ÓÃ`setCustomValidity()`À´±ê¼ÇÎŞĞ§×Ö¶Î²¢ÇÒ½âÊÍÎªÊ²Ã´¸Ã×Ö¶ÎÎŞĞ§¡£ÀıÈç£ºÒ»¸ö×¢²á±íµ¥¿ÉÄÜ»áÒªÇóÓÃ»§ÊäÈëÁ½´ÎÓÊÏäµØÖ·ÒÔÈ·ÈÏËûÃÇµÄÓÊ¼şµØÖ·¡£ÔÚµÚ¶ş´ÎÊäÈëÊ¹ÓÃÒ»¸öÄ£ºıÊÂ¼şÒÔÑéÖ¤Á½´ÎÊäÈëºÍÉèÖÃºÏÊÊµÄÍøÒ³»ØÓ¦¡£ÀıÈç£º
 
 {% include_code _code/order.html customvalidation javascript %}
 
-#### é˜²æ­¢å› è¡¨æ ¼æ— æ•ˆè€Œæ’¤é”€
+#### ·ÀÖ¹Ìá½»ÎŞĞ§±íµ¥
 
-å› ä¸ºå¦‚æœæœ‰æ— æ•ˆæ•°æ®ï¼Œå¹¶ä¸æ˜¯æ‰€æœ‰çš„æµè§ˆå™¨éƒ½ä¼šç¦æ­¢ç”¨æˆ·æäº¤è¡¨å•ã€‚å¦‚æœè¡¨å•æœ‰æ•ˆï¼Œä½ éœ€è¦æ³¨æ„æäº¤äº‹ä»¶ï¼Œä»¥åŠç»™è¡¨å•å…ƒç´ ä½¿ç”¨`checkValidity()`
-æ¥åˆ¤æ–­:
+Èç¹ûÓĞÎŞĞ§Êı¾İ£¬²»ÊÇËùÓĞµÄä¯ÀÀÆ÷¶¼»á½ûÖ¹ÓÃ»§Ìá½»±íµ¥¡£ÄãĞèÒªÊ¹²¶»ñÌá½»ÊÂ¼ş£¬²¢ÔÚ±íµ¥ÔªËØÉÏÊ¹ÓÃ`checkValidity()`À´ÅĞ¶Ï±íµ¥ÊÇ·ñÓĞĞ§£¬±ÈÈç:
 
 {% include_code _code/order.html preventsubmission javascript %}
 
-### æ˜¾ç¤ºå®æ—¶åé¦ˆ
+### ÏÔÊ¾ÊµÊ±·´À¡
 
-åœ¨ç”¨æˆ·æäº¤è¡¨å•å‰å¦å‡†ç¡®åœ°å®Œæˆäº†è¡¨å•çš„æƒ…å†µä¸‹æä¾›è§†è§‰æç¤ºæ˜¯å¾ˆæœ‰å¸®åŠ©çš„ã€‚HTML5åŒæ ·åœ°ä¹Ÿæä¾›äº†ä¸€ç³»åˆ—çš„ä¼ªç±»ï¼Œä»¥å€¼å’Œå±æ€§ä¸ºåŸºç¡€ï¼Œä»è€Œç¡®å®šè¾“å…¥æ ·å¼ã€‚
+ÔÚÓÃ»§Ìá½»±íµ¥Ç°·ñ×¼È·µØÍê³ÉÁË±íµ¥µÄÇé¿öÏÂÌá¹©ÊÓ¾õÌáÊ¾ÊÇºÜÓĞ°ïÖúµÄ¡£HTML5Í¬ÑùµØÒ²Ìá¹©ÁËÒ»ÏµÁĞµÄÎ±Àà£¬¸ù¾İÆäÖµ»òÊôĞÔÀ´È·¶¨ÊäÈë¿òÑùÊ½¡£
 
 <table class="table-2 tc-heavyright">
   <thead>
     <tr>
-      <th data-th="Pseudo-class">Pseudo-class</th>
-      <th data-th="Use">Use</th>
+      <th data-th="Pseudo-class">Î±Àà</th>
+      <th data-th="Use">Ê¹ÓÃ</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td data-th="Pseudo-class"><code>:valid</code></td>
-      <td data-th="Use">Explicitly sets the style for an input to be used when the value meets all of the validation requirements.</td>
+      <td data-th="Use">ÊäÈë¿òÖĞµÄÖµÓëÑéÖ¤ÒªÇóÏà·ûµÄÓ¦ÓÃ¸ÃÑùÊ½¡£</td>
     </tr>
     <tr>
       <td data-th="Pseudo-class"><code>:invalid</code></td>
-      <td data-th="Use">Explicitly sets the style for an input to be used when the value does not meet all of the validation requirements.</td>
+      <td data-th="Use">ÊäÈë¿òÖĞµÄÖµÓëÑéÖ¤ÒªÇó²»Ïà·ûµÄÓ¦ÓÃ¸ÃÑùÊ½¡£</td>
     </tr>
     <tr>
       <td data-th="Pseudo-class"><code>:required</code></td>
-      <td data-th="Use">Explicitly sets the style for an input element that has the required attribute set.</td>
+      <td data-th="Use">ÊäÈë¿òÔªËØÉèÓĞrequiredÊôĞÔµÄÓ¦ÓÃ¸ÃÑùÊ½¡£</td>
     </tr>
     <tr>
       <td data-th="Pseudo-class"><code>:optional</code></td>
-      <td data-th="Use">Explicitly sets the style for an input element that does not have the required attribute set.</td>
+      <td data-th="Use">ÊäÈë¿òÔªËØÃ»ÉèÓĞrequiredÊôĞÔµÄÓ¦ÓÃ¸ÃÑùÊ½¡£</td>
     </tr>
     <tr>
       <td data-th="Pseudo-class"><code>:in-range</code></td>
-      <td data-th="Use">Explicitly sets the style for a number input element where the value is in range.</td>
+      <td data-th="Use">Êı×ÖÊäÈë¿òÔªËØµÄÖµÔÚÆäËùÉè·¶Î§ÖĞµÄÓ¦ÓÃ¸ÃÑùÊ½¡£</td>
     </tr>
     <tr>
       <td data-th="Pseudo-class"><code>:out-of-range</code></td>
-      <td data-th="Use">Explicitly sets the style for a number input element where the value is out of range.</td>
+      <td data-th="Use">Êı×ÖÊäÈë¿òÔªËØµÄÖµ²»ÔÚÆäËùÉè·¶Î§ÖĞµÄÓ¦ÓÃ¸ÃÑùÊ½¡£</td>
     </tr>
   </tbody>
 </table>
 
-å½“ç½‘é¡µè¯»å–å®Œæ¯•ï¼Œå¯èƒ½æ ‡ç­¾æ˜¾ç¤ºæ— æ•ˆï¼Œç”šè‡³ç”¨æˆ·è¿˜æ²¡æœ‰å¼€å§‹è¾“å…¥ï¼Œè®¤è¯ä¹Ÿä¼šç«‹å³å¼€å§‹ã€‚è¿™åŒæ—¶ä¹Ÿæ„å‘³ç€ï¼Œå½“ç”¨æˆ·è¾“å…¥çš„æ—¶å€™ï¼Œç½‘é¡µå¯èƒ½çœ‹åˆ°è¾“å…¥è¿‡ç¨‹ä¸­çš„æ— æ•ˆæ–¹å¼ã€‚ä¸ºäº†é˜²æ­¢è¿™ä¸ªæƒ…å†µï¼Œåœ¨ç”¨æˆ·å·²ç»è®¿é—®æ ‡ç­¾çš„æ—¶å€™ï¼Œä½ å¯ä»¥å°†CSSå’ŒJavaScriptç»“åˆï¼Œåªæ˜¾ç¤ºæ— æ•ˆæ–¹å¼ã€‚
+µ±ÍøÒ³¶ÁÈ¡Íê±Ï£¬×Ö¶Î¿ÉÄÜÈÔ¾ÉÎŞĞ§£¬ÉõÖÁÓÃ»§»¹Ã»ÓĞ»ú»áÊäÈëµÄÊ±ºò£¬ÑéÖ¤Ò²»áÁ¢¼´¿ªÊ¼¡£ÕâÍ¬Ê±Ò²ÒâÎ¶×Å£¬ÔÚÓÃ»§ÊäÈëµÄ¹ı³ÌÖĞ£¬Ò²»áÒ»Ö±¿´µ½ÎŞĞ§µÄÑùÊ½¡£ÎªÁË·ÀÖ¹ÕâÖÖÇé¿ö£¬Äã¿ÉÒÔ½«CSSºÍJavaScript½áºÏ£¬Ö»ÔÚÓÃ»§·ÃÎÊ¹ı¸Ã×Ö¶ÎÖ®ºóÏÔÊ¾ÎŞĞ§ÑùÊ½¡£
 
 {% include_code _code/order.html invalidstyle css %}
 {% include_code _code/order.html initinputs javascript %}
