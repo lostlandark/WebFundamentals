@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "Ñ¡Ôñ×î¼ÑÊäÈëÀàÐÍ"
-description: "Ã¿Ò»´Îµã»÷¶¼°üº¬ÔÚÄÚ£¬ÓÃ»§»á¸ÐÐ»ÄÇÐ©ÍøÕ¾£ºÔÚËûÃÇÊäÈëµç»°ºÅÂëµÄÊ±ºò×Ô¶¯³ÊÏÖ²¦ºÅ¼üÅÌ£¬»òÕßÊÇÔÚËûÃÇÊäÈëÐÅÏ¢Ç°ÌáÇ°Ìî³ä¡£ÔÚÄãµÄ±í¸ñÖÐÑ°ÕÒÄÜ¹»È¥³ý¶àÓàÇá»÷µÄ»ú»á¡£"
-introduction: "Ã¿Ò»´Îµã»÷¶¼°üº¬ÔÚÄÚ¡£ÓÃ»§»á¸ÐÐ»ÄÇÐ©ÍøÕ¾£ºÔÚËûÃÇÊäÈëµç»°ºÅÂëµÄÊ±ºò×Ô¶¯³ÊÏÖ²¦ºÅ¼üÅÌ£¬»òÕßÊÇÔÚËûÃÇÊäÈëÐÅÏ¢Ç°ÌáÇ°Ìî¡£ÔÚÄãµÄ±í¸ñÖÐÑ°ÕÒÄÜ¹»È¥³ý¶àÓàÇá»÷µÄ»ú»á¡£"
+title: "é€‰æ‹©æœ€ä½³è¾“å…¥ç±»åž‹"
+description: "æ¯ä¸€æ¬¡ç‚¹å‡»éƒ½åŒ…å«åœ¨å†…ï¼Œç”¨æˆ·ä¼šæ„Ÿè°¢é‚£äº›ç½‘ç«™ï¼šåœ¨ä»–ä»¬è¾“å…¥ç”µè¯å·ç çš„æ—¶å€™è‡ªåŠ¨å‘ˆçŽ°æ‹¨å·é”®ç›˜ï¼Œæˆ–è€…æ˜¯åœ¨ä»–ä»¬è¾“å…¥ä¿¡æ¯å‰æå‰å¡«å……ã€‚åœ¨ä½ çš„è¡¨æ ¼ä¸­å¯»æ‰¾èƒ½å¤ŸåŽ»é™¤å¤šä½™è½»å‡»çš„æœºä¼šã€‚"
+introduction: "æ¯ä¸€æ¬¡ç‚¹å‡»éƒ½åŒ…å«åœ¨å†…ã€‚ç”¨æˆ·ä¼šæ„Ÿè°¢é‚£äº›ç½‘ç«™ï¼šåœ¨ä»–ä»¬è¾“å…¥ç”µè¯å·ç çš„æ—¶å€™è‡ªåŠ¨å‘ˆçŽ°æ‹¨å·é”®ç›˜ï¼Œæˆ–è€…æ˜¯åœ¨ä»–ä»¬è¾“å…¥ä¿¡æ¯å‰æå‰å¡«ã€‚åœ¨ä½ çš„è¡¨æ ¼ä¸­å¯»æ‰¾èƒ½å¤ŸåŽ»é™¤å¤šä½™è½»å‡»çš„æœºä¼šã€‚"
 article:
   written_on: 2014-04-30
   updated_on: 2014-04-30
@@ -12,23 +12,23 @@ rel:
 collection: form-input
 key-takeaways:
   choose-best-input-type:
-    - ÎªÄãµÄÊý¾ÝÑ¡Ôñ×îÊÊºÏµÄÊäÈëÀàÐÍÒÔ¼ò»¯ÊäÈëÁ÷³Ì¡£
-    - Ê¹ÓÃ<code>datalist</code> ÔªËØÎªÓÃ»§ÊäÈëÀàÐÍÌá¹©½¨Òé.
+    - ä¸ºä½ çš„æ•°æ®é€‰æ‹©æœ€é€‚åˆçš„è¾“å…¥ç±»åž‹ä»¥ç®€åŒ–è¾“å…¥æµç¨‹ã€‚
+    - ä½¿ç”¨<code>datalist</code> å…ƒç´ ä¸ºç”¨æˆ·è¾“å…¥ç±»åž‹æä¾›å»ºè®®.
 remember:
   use-placeholders:
-    - µ±½¹µã¼¯ÖÐÔÚÒ»¸öÔªËØÉÏÊ±£¬Õ¼Î»·û¾Í»áÏûÊ§¡£Òò´ËËûÃÇ²»ÄÜÌæ´ú±êÇ©¡£
-      Õ¼Î»·ûÓ¦¸Ã×÷ÎªÒ»ÖÖ°ïÖú£¬ÔÚÓÃ»§ËùÐèµÄ¸ñÊ½ºÍÄÚÈÝÉÏ½øÐÐµ¼º½¡£
+    - å½“ç„¦ç‚¹é›†ä¸­åœ¨ä¸€ä¸ªå…ƒç´ ä¸Šæ—¶ï¼Œå ä½ç¬¦å°±ä¼šæ¶ˆå¤±ã€‚å› æ­¤ä»–ä»¬ä¸èƒ½æ›¿ä»£æ ‡ç­¾ã€‚
+      å ä½ç¬¦åº”è¯¥ä½œä¸ºä¸€ç§å¸®åŠ©ï¼Œåœ¨ç”¨æˆ·æ‰€éœ€çš„æ ¼å¼å’Œå†…å®¹ä¸Šè¿›è¡Œå¯¼èˆªã€‚
   recommend-input:
-    - ×Ô¶¯Íê³ÉÖ»»áÔÚµ±±í¸ñ³öÏÖµÄÇé¿öÏÂÔËÐÐ¡£
+    - è‡ªåŠ¨å®Œæˆåªä¼šåœ¨å½“è¡¨æ ¼å‡ºçŽ°çš„æƒ…å†µä¸‹è¿è¡Œã€‚
   use-datalist:
-    - <code>datalist</code> Öµ×÷Îª½¨ÒéÌá¹©¸øÓÃ»§£¬µ«ÊÇÓÃ»§²»»á¾ÖÏÞÓÚËùÌá¹©µÄ½¨ÒéÖÐ¡£
+    - <code>datalist</code> å€¼ä½œä¸ºå»ºè®®æä¾›ç»™ç”¨æˆ·ï¼Œä½†æ˜¯ç”¨æˆ·ä¸ä¼šå±€é™äºŽæ‰€æä¾›çš„å»ºè®®ä¸­ã€‚
   provide-real-time-validation:
-    - ¼´Ê¹´æÔÚ¿Í»§¶ËÒ»·½µÄÊäÈëÈÏÖ¤£¬ÔÚ·þÎñÆ÷ÉÏÈÏÖ¤Êý¾ÝÒÔÈ·±£ÄãµÄÊý¾ÝµÄÍ³Ò»ÐÔºÍ°²È«ÐÔÍ¬ÑùÖØÒª¡£
+    - å³ä½¿å­˜åœ¨å®¢æˆ·ç«¯ä¸€æ–¹çš„è¾“å…¥è®¤è¯ï¼Œåœ¨æœåŠ¡å™¨ä¸Šè®¤è¯æ•°æ®ä»¥ç¡®ä¿ä½ çš„æ•°æ®çš„ç»Ÿä¸€æ€§å’Œå®‰å…¨æ€§åŒæ ·é‡è¦ã€‚
   show-all-errors:
-    - ÄãÓ¦¸ÃÒ»´ÎÐÔ¸æËßÓÃ»§±í¸ñ´æÔÚµÄËùÓÐÎÊÌâ£¬¶ø²»ÊÇ·ÖÊ±¶Î¸æËßÓÃ»§¡£
+    - ä½ åº”è¯¥ä¸€æ¬¡æ€§å‘Šè¯‰ç”¨æˆ·è¡¨æ ¼å­˜åœ¨çš„æ‰€æœ‰é—®é¢˜ï¼Œè€Œä¸æ˜¯åˆ†æ—¶æ®µå‘Šè¯‰ç”¨æˆ·ã€‚
   request-auto-complete-flow:
-    - Èç¹ûÄãÕýÔÚËÑÑ°ÈÎºÎË½ÈËÐÅÏ¢»òÐÅÓÃ¿¨Êý¾Ý£¬ÄÇÃ´ÇëÈ·±£Õâ¸öÒ³ÃæÔÚSSLÏÂÔËÐÐ¡£
-      ·ñÔò¶Ô»°¿ò»á¾¯¸æÓÃ»§ËûÃÇµÄÐÅÏ¢¿ÉÄÜ²»ÄÜµÃµ½°²È«±£ÕÏ¡£
+    - å¦‚æžœä½ æ­£åœ¨æœå¯»ä»»ä½•ç§äººä¿¡æ¯æˆ–ä¿¡ç”¨å¡æ•°æ®ï¼Œé‚£ä¹ˆè¯·ç¡®ä¿è¿™ä¸ªé¡µé¢åœ¨SSLä¸‹è¿è¡Œã€‚
+      å¦åˆ™å¯¹è¯æ¡†ä¼šè­¦å‘Šç”¨æˆ·ä»–ä»¬çš„ä¿¡æ¯å¯èƒ½ä¸èƒ½å¾—åˆ°å®‰å…¨ä¿éšœã€‚
 ---
 {% wrap content %}
 
@@ -54,21 +54,21 @@ remember:
 
 {% include modules/takeaway.liquid list=page.key-takeaways.choose-best-input-type %}
 
-### HTML5 ÊäÈëÀàÐÍ
+### HTML5 è¾“å…¥ç±»åž‹
 
-HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ²¼¾Ö¡£ÓÃ»§ÄÜ¹»¸ü¼ÓÈÝÒ×ÊäÈëËùÐèÐÅÏ¢£¬¶ø²»±ØÇÐ»»ËûÃÇµÄ¼üÅÌ£¬¶øÇÒ£¬ÓÃ»§Ö»»á¿´µ½ÊÊºÏµ±Ç°ÊäÈëÀàÐÍµÄ°´¼ü¡£
+HTML5 ä»‹ç»äº†ä¸€ç³»åˆ—æ–°çš„è¾“å…¥ç±»åž‹ã€‚è¿™äº›æ–°æ–¹æ¡ˆæç¤ºæµè§ˆå™¨åº”è¯¥ä¸ºå±å¹•é”®ç›˜æ˜¾ç¤ºæ€Žæ ·çš„é”®ç›˜å¸ƒå±€ã€‚ç”¨æˆ·èƒ½å¤Ÿæ›´åŠ å®¹æ˜“è¾“å…¥æ‰€éœ€ä¿¡æ¯ï¼Œè€Œä¸å¿…åˆ‡æ¢ä»–ä»¬çš„é”®ç›˜ï¼Œè€Œä¸”ï¼Œç”¨æˆ·åªä¼šçœ‹åˆ°é€‚åˆå½“å‰è¾“å…¥ç±»åž‹çš„æŒ‰é”®ã€‚
 
 <table class="table-2 inputtypes">
   <thead>
     <tr>
-      <th data-th="Input type">ÊäÈë<code>ÀàÐÍ</code></th>
-      <th data-th="Typical keyboard">±ê×¼¼üÅÌ</th>
+      <th data-th="Input type">è¾“å…¥<code>ç±»åž‹</code></th>
+      <th data-th="Typical keyboard">æ ‡å‡†é”®ç›˜</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td data-th="Input type">
-        <code>url</code><br>ÊäÈëÒ»¸öÍøÖ·£¬±ØÐëÒÔÓÐÐ§µÄÍøÖ·×éºÏ¿ªÊ¼£¬ÀýÈç£º <code>http://</code>, <code>ftp://</code>»òÕß<code>mailto:</code>.
+        <code>url</code><br>è¾“å…¥ä¸€ä¸ªç½‘å€ï¼Œå¿…é¡»ä»¥æœ‰æ•ˆçš„ç½‘å€ç»„åˆå¼€å§‹ï¼Œä¾‹å¦‚ï¼š <code>http://</code>, <code>ftp://</code>æˆ–è€…<code>mailto:</code>.
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/url-ios.png" srcset="imgs/url-ios.png 1x, imgs/url-ios-2x.png 2x">
@@ -76,7 +76,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>tel</code><br>ÊäÈëµç»°ºÅÂë£¬<b>²¢²»</b>´æÔÚÇ¿ÖÆÌØ¶¨µÄÓÐÐ§½á¹¹¡£ËùÒÔÈç¹ûÄãÏëÈ·¶¨Ò»¸öÌØ¶¨¸ñÊ½£¬Äã¿ÉÒÔÊ¹ÓÃpattern¡£
+        <code>tel</code><br>è¾“å…¥ç”µè¯å·ç ï¼Œ<b>å¹¶ä¸</b>å­˜åœ¨å¼ºåˆ¶ç‰¹å®šçš„æœ‰æ•ˆç»“æž„ã€‚æ‰€ä»¥å¦‚æžœä½ æƒ³ç¡®å®šä¸€ä¸ªç‰¹å®šæ ¼å¼ï¼Œä½ å¯ä»¥ä½¿ç”¨patternã€‚
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/tel-android.png" srcset="imgs/tel-android.png 1x, imgs/tel-android-2x.png 2x">
@@ -84,7 +84,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>email</code><br>ÊäÈëÓÊ¼þµØÖ·£¬@·ûºÅÓ¦¸ÃÄ¬ÈÏ³öÏÖÔÚ¼üÅÌÉÏ¡£Èç¹ûÒªÌá¹©²»Ö¹Ò»¸öÓÊ¼þµØÖ·£¬Äã¿ÉÒÔÌí¼Ó¶àÊôÐÔÊµÏÖ¡£
+        <code>email</code><br>è¾“å…¥é‚®ä»¶åœ°å€ï¼Œ@ç¬¦å·åº”è¯¥é»˜è®¤å‡ºçŽ°åœ¨é”®ç›˜ä¸Šã€‚å¦‚æžœè¦æä¾›ä¸æ­¢ä¸€ä¸ªé‚®ä»¶åœ°å€ï¼Œä½ å¯ä»¥æ·»åŠ å¤šå±žæ€§å®žçŽ°ã€‚
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/email-android.png" srcset="imgs/email-android.png 1x, imgs/email-android-2x.png 2x">
@@ -92,7 +92,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>search</code><br>ÎÄ±¾ÊäÈëÇøÓòµÄ·ç¸ñºÍÆ½Ì¨ËÑË÷ÇøÓòµÄ·ç¸ñÊÇÒ»ÖÂµÄ¡£
+        <code>search</code><br>æ–‡æœ¬è¾“å…¥åŒºåŸŸçš„é£Žæ ¼å’Œå¹³å°æœç´¢åŒºåŸŸçš„é£Žæ ¼æ˜¯ä¸€è‡´çš„ã€‚
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/plain-ios.png" srcset="imgs/plain-ios.png 1x, imgs/plain-ios-2x.png 2x" class="keybimg">
@@ -100,7 +100,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>number</code><br>ÊäÈëÊýÖµ£¬ÕâÐ©Êý×Ö¿ÉÒÔÊÇÈÎºÎºÏÀíµÄÕûÊý»òÊÇ¸¡µãÊý¡£
+        <code>number</code><br>è¾“å…¥æ•°å€¼ï¼Œè¿™äº›æ•°å­—å¯ä»¥æ˜¯ä»»ä½•åˆç†çš„æ•´æ•°æˆ–æ˜¯æµ®ç‚¹æ•°ã€‚
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/number-android.png" srcset="imgs/number-android.png 1x, imgs/number-android-2x.png 2x" class="keybimg">
@@ -108,7 +108,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>range</code><br>ÊäÈëÊýÖµ£¬µ«ÒòÆäÖµ²¢²»ÖØÒª¶ø²»Í¬ÓÚÊý×ÖÊäÈëÀàÐÍ¡£Ëü»áÒÔ»¬¿é¿Ø¼þµÄÐÎÊ½ÏÔÊ¾ÔÚÓÃ»§ÃæÇ°¡£
+        <code>range</code><br>è¾“å…¥æ•°å€¼ï¼Œä½†å› å…¶å€¼å¹¶ä¸é‡è¦è€Œä¸åŒäºŽæ•°å­—è¾“å…¥ç±»åž‹ã€‚å®ƒä¼šä»¥æ»‘å—æŽ§ä»¶çš„å½¢å¼æ˜¾ç¤ºåœ¨ç”¨æˆ·é¢å‰ã€‚
 </td>
       <td data-th="Typical keyboard">
         <img src="imgs/range-ios.png">
@@ -116,7 +116,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>datetime-local</code><br>ÔÚ±¾µØÊ±ÇøÏÂÊäÈëÒ»¸öÈÕÆÚÖµºÍÊ±¼äÖµ¡£
+        <code>datetime-local</code><br>åœ¨æœ¬åœ°æ—¶åŒºä¸‹è¾“å…¥ä¸€ä¸ªæ—¥æœŸå€¼å’Œæ—¶é—´å€¼ã€‚
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/datetime-local-ios.png" srcset="imgs/datetime-local-ios.png 1x, imgs/datetime-local-ios-2x.png 2x">
@@ -124,7 +124,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>date</code><br>½öÊäÈëÒ»¸öÈÕÆÚÖµ£¬¶øÇÒ²»Ìá¹©Ê±Çø¡£
+        <code>date</code><br>ä»…è¾“å…¥ä¸€ä¸ªæ—¥æœŸå€¼ï¼Œè€Œä¸”ä¸æä¾›æ—¶åŒºã€‚
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/date-android.png" srcset="imgs/date-android.png 1x, imgs/date-android-2x.png 2x">
@@ -132,7 +132,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>time</code><br>½öÊäÈëÒ»¸öÊ±¼äÖµ£¬¶øÇÒ²»Ìá¹©Ê±Çø¡£
+        <code>time</code><br>ä»…è¾“å…¥ä¸€ä¸ªæ—¶é—´å€¼ï¼Œè€Œä¸”ä¸æä¾›æ—¶åŒºã€‚
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/time-ios.png" srcset="imgs/time-ios.png 1x, imgs/time-ios-2x.png 2x">
@@ -140,7 +140,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>week</code><br>½öÊäÈëÒ»¸öÐÇÆÚÖµ£¬¶øÇÒ²»Ìá¹©Ê±Çø¡£      
+        <code>week</code><br>ä»…è¾“å…¥ä¸€ä¸ªæ˜ŸæœŸå€¼ï¼Œè€Œä¸”ä¸æä¾›æ—¶åŒºã€‚      
 </td>
       <td data-th="Typical keyboard">
         <img src="imgs/week-android.png" srcset="imgs/week-android.png 1x, imgs/week-android-2x.png 2x">
@@ -148,7 +148,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>month</code><br>½öÊäÈëÒ»¸öÔÂ·ÝÖµ£¬¶øÇÒ²»Ìá¹©Ê±Çø¡£
+        <code>month</code><br>ä»…è¾“å…¥ä¸€ä¸ªæœˆä»½å€¼ï¼Œè€Œä¸”ä¸æä¾›æ—¶åŒºã€‚
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/month-ios.png" srcset="imgs/month-ios.png 1x, imgs/month-ios-2x.png 2x">
@@ -156,7 +156,7 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>color</code><br>Ñ¡ÔñÒ»¸öÑÕÉ«¡£
+        <code>color</code><br>é€‰æ‹©ä¸€ä¸ªé¢œè‰²ã€‚
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/color-android.png" srcset="imgs/color-android.png 1x, imgs/color-android-2x.png 2x">
@@ -165,9 +165,9 @@ HTML5 ½éÉÜÁËÒ»ÏµÁÐÐÂµÄÊäÈëÀàÐÍ¡£ÕâÐ©ÐÂ·½°¸ÌáÊ¾ä¯ÀÀÆ÷Ó¦¸ÃÎªÆÁÄ»¼üÅÌÏÔÊ¾ÔõÑùµÄ¼üÅÌ
   </tbody>
 </table>
 
-### ÔÚÊäÈëÊ±ÓÃdatalistÌá¹©½¨Òé
+### åœ¨è¾“å…¥æ—¶ç”¨datalistæä¾›å»ºè®®
 
-`datalist`ÔªËØ²¢²»ÊÇÒ»ÖÖÊäÈëÀàÐÍ£¬ËüÊÇÒ»¸ö½¨ÒéÊäÈëÄÚÈÝµÄÁÐ±í£¬²¢ºÍ±íµ¥×Ö¶ÎÏà¹Ø¡£ÔÚÓÃ»§ÊäÈëµÄÊ±ºò£¬ËüÈÃä¯ÀÀÆ÷¸øÓÃ»§ÍÆ¼ö×Ô¶¯Íê³ÉµÄÑ¡Ïî¡£²»ÏñÑ¡ÔñÔªËØ£¬ÓÃ»§±ØÐëä¯ÀÀÈß³¤µÄÁÐ±íÀ´ËÑÑ°ËûÃÇËùÑ°ÕÒµÄÖµ£¬²¢ÇÒÏÞÖÆÓÃ»§Í£ÁôÔÚÁÐ±íÉÏ¡£`datalist`Ö»ÔÚÓÃ»§ÊäÈëÊ±»áÌá¹©ÌáÊ¾¡£
+`datalist`å…ƒç´ å¹¶ä¸æ˜¯ä¸€ç§è¾“å…¥ç±»åž‹ï¼Œå®ƒæ˜¯ä¸€ä¸ªå»ºè®®è¾“å…¥å†…å®¹çš„åˆ—è¡¨ï¼Œå¹¶å’Œè¡¨å•å­—æ®µç›¸å…³ã€‚åœ¨ç”¨æˆ·è¾“å…¥çš„æ—¶å€™ï¼Œå®ƒè®©æµè§ˆå™¨ç»™ç”¨æˆ·æŽ¨èè‡ªåŠ¨å®Œæˆçš„é€‰é¡¹ã€‚ä¸åƒé€‰æ‹©å…ƒç´ ï¼Œç”¨æˆ·å¿…é¡»æµè§ˆå†—é•¿çš„åˆ—è¡¨æ¥æœå¯»ä»–ä»¬æ‰€å¯»æ‰¾çš„å€¼ï¼Œå¹¶ä¸”é™åˆ¶ç”¨æˆ·åœç•™åœ¨åˆ—è¡¨ä¸Šã€‚`datalist`åªåœ¨ç”¨æˆ·è¾“å…¥æ—¶ä¼šæä¾›æç¤ºã€‚
 
 {% include_code _code/order.html datalist %}
 
