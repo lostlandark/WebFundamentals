@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "Critical Rendering Path"
-description: "Optimizing the critical rendering path is critical for improving performance of our pages: our goal is to prioritize and display the content that relates to the primary action the user wants to take on a page."
-introduction: "Optimizing the critical rendering path is critical for improving performance of our pages: our goal is to prioritize and display the content that relates to the primary action the user wants to take on a page."
+title: "关键渲染路径"
+description: "优化关键渲染路径对于提高性能至关重要：我们的目标是将用户需要的信息优先化并且展现在用户面前，从而帮助用户来完成他的首要行动。"
+introduction: "优化关键渲染路径对于提高性能至关重要：我们的目标是将用户需要的信息优先化并且展现在用户面前，从而帮助用户来完成他的首要行动。"
 article:
   written_on: 2014-04-01
   updated_on: 2014-04-28
@@ -24,15 +24,15 @@ collection: performance
   }
 </style>
 
-Delivering a fast web experience requires a lot of work by the browser. Most of this work is hidden from us as web developers: we write the markup, and a nice looking page comes out on the screen. But how exactly does the browser go from consuming our HTML, CSS, and JavaScript to rendered pixels on the screen?
+传递一个快速的网络体验需要浏览器来做大量的工作。大多数作业都是在开发者看不到的情况下发生的。但是浏览器是如何消化我们所提供的HTML, CSS, 与Javascript 到渲染出屏幕上的像素？
 
-Optimizing for performance is all about understanding what happens in these intermediate steps between receiving the HTML, CSS, and JavaScript bytes and the required processing to turn them into rendered pixels - that's the **critical rendering path**.
+优化性能完全基于对于浏览器处理文件步骤的理解， 通过对于HTML，CSS, 还有Javascript的控制来将他们变成像素 - 这就是所谓的**关键路径渲染**。
 
 <img src="images/progressive-rendering.png" class="center" alt="progressive page rendering">
 
-By optimizing the critical rendering path we can significantly improve the time to first render of our pages. Further, understanding the critical rendering path will also serve as a foundation for building well performing interactive applications. It turns out, the process for processing interactive updates is the same, just done in a continuous loop and ideally at 60 frames per second! However, let's not get ahead of ourselves just yet. First, let's take a quick, ground-up overview of how the browser goes about displaying a simple page.
+通过对于关键路径的渲染，我们可以大幅度的降低第一次读取网页的速度。另外，对于关键渲染路径的理解对于建立一个正常运转，拥有互动性的网络应用至关重要。巧的是，对于互动性的优化大同小异，只需要在60帧每秒的情况下完成一个完整的循环！但是，我们先不要急功近利。第一步，我们来一个快速，基础的概述来理解浏览器是如何展示一个网页的。
 
-## Lessons
+## 课程
 
 {% for guide in page.articles.critical-rendering-path %}
 1. [{{guide.title}}]({{site.baseurl}}{{guide.url | clean}}) &mdash;

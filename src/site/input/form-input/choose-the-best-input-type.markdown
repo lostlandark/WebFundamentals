@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "选择最佳输入类型"
-description: "每一次点击都包含在内，用户会感谢那些网站：在他们输入电话号码的时候自动呈现拨号键盘，或者是在他们输入信息前提前填充。在你的表格中寻找能够去除多余轻击的机会。"
-introduction: "每一次点击都包含在内。用户会感谢那些网站：在他们输入电话号码的时候自动呈现拨号键盘，或者是在他们输入信息前提前填。在你的表格中寻找能够去除多余轻击的机会。"
+title: "脩隆脭帽脳卯录脩脢盲脠毛脌脿脨脥"
+description: "脙驴脪禄麓脦碌茫禄梅露录掳眉潞卢脭脷脛脷拢卢脫脙禄搂禄谩赂脨脨禄脛脟脨漏脥酶脮戮拢潞脭脷脣没脙脟脢盲脠毛碌莽禄掳潞脜脗毛碌脛脢卤潞貌脳脭露炉鲁脢脧脰虏娄潞脜录眉脜脤拢卢禄貌脮脽脢脟脭脷脣没脙脟脢盲脠毛脨脜脧垄脟掳脤谩脟掳脤卯鲁盲隆拢脭脷脛茫碌脛卤铆赂帽脰脨脩掳脮脪脛脺鹿禄脠楼鲁媒露脿脫脿脟谩禄梅碌脛禄煤禄谩隆拢"
+introduction: "脙驴脪禄麓脦碌茫禄梅露录掳眉潞卢脭脷脛脷隆拢脫脙禄搂禄谩赂脨脨禄脛脟脨漏脥酶脮戮拢潞脭脷脣没脙脟脢盲脠毛碌莽禄掳潞脜脗毛碌脛脢卤潞貌脳脭露炉鲁脢脧脰虏娄潞脜录眉脜脤拢卢禄貌脮脽脢脟脭脷脣没脙脟脢盲脠毛脨脜脧垄脟掳脤谩脟掳脤卯隆拢脭脷脛茫碌脛卤铆赂帽脰脨脩掳脮脪脛脺鹿禄脠楼鲁媒露脿脫脿脟谩禄梅碌脛禄煤禄谩隆拢"
 article:
   written_on: 2014-04-30
   updated_on: 2014-04-30
@@ -12,23 +12,23 @@ rel:
 collection: form-input
 key-takeaways:
   choose-best-input-type:
-    - 为你的数据选择最适合的输入类型以简化输入流程。
-    - 使用<code>datalist</code> 元素为用户输入类型提供建议.
+    - 脦陋脛茫碌脛脢媒戮脻脩隆脭帽脳卯脢脢潞脧碌脛脢盲脠毛脌脿脨脥脪脭录貌禄炉脢盲脠毛脕梅鲁脤隆拢
+    - 脢鹿脫脙<code>datalist</code> 脭陋脣脴脦陋脫脙禄搂脢盲脠毛脌脿脨脥脤谩鹿漏陆篓脪茅.
 remember:
   use-placeholders:
-    - 当焦点集中在一个元素上时，占位符就会消失。因此他们不能替代标签。
-      占位符应该作为一种帮助，在用户所需的格式和内容上进行导航。
+    - 碌卤陆鹿碌茫录炉脰脨脭脷脪禄赂枚脭陋脣脴脡脧脢卤拢卢脮录脦禄路没戮脥禄谩脧没脢搂隆拢脪貌麓脣脣没脙脟虏禄脛脺脤忙麓煤卤锚脟漏隆拢
+      脮录脦禄路没脫娄赂脙脳梅脦陋脪禄脰脰掳茂脰煤拢卢脭脷脫脙禄搂脣霉脨猫碌脛赂帽脢陆潞脥脛脷脠脻脡脧陆酶脨脨碌录潞陆隆拢
   recommend-input:
-    - 自动完成只会在当表格出现的情况下运行。
+    - 脳脭露炉脥锚鲁脡脰禄禄谩脭脷碌卤卤铆赂帽鲁枚脧脰碌脛脟茅驴枚脧脗脭脣脨脨隆拢
   use-datalist:
-    - <code>datalist</code> 值作为建议提供给用户，但是用户不会局限于所提供的建议中。
+    - <code>datalist</code> 脰碌脳梅脦陋陆篓脪茅脤谩鹿漏赂酶脫脙禄搂拢卢碌芦脢脟脫脙禄搂虏禄禄谩戮脰脧脼脫脷脣霉脤谩鹿漏碌脛陆篓脪茅脰脨隆拢
   provide-real-time-validation:
-    - 即使存在客户端一方的输入认证，在服务器上认证数据以确保你的数据的统一性和安全性同样重要。
+    - 录麓脢鹿麓忙脭脷驴脥禄搂露脣脪禄路陆碌脛脢盲脠毛脠脧脰陇拢卢脭脷路镁脦帽脝梅脡脧脠脧脰陇脢媒戮脻脪脭脠路卤拢脛茫碌脛脢媒戮脻碌脛脥鲁脪禄脨脭潞脥掳虏脠芦脨脭脥卢脩霉脰脴脪陋隆拢
   show-all-errors:
-    - 你应该一次性告诉用户表格存在的所有问题，而不是分时段告诉用户。
+    - 脛茫脫娄赂脙脪禄麓脦脨脭赂忙脣脽脫脙禄搂卤铆赂帽麓忙脭脷碌脛脣霉脫脨脦脢脤芒拢卢露酶虏禄脢脟路脰脢卤露脦赂忙脣脽脫脙禄搂隆拢
   request-auto-complete-flow:
-    - 如果你正在搜寻任何私人信息或信用卡数据，那么请确保这个页面在SSL下运行。
-      否则对话框会警告用户他们的信息可能不能得到安全保障。
+    - 脠莽鹿没脛茫脮媒脭脷脣脩脩掳脠脦潞脦脣陆脠脣脨脜脧垄禄貌脨脜脫脙驴篓脢媒戮脻拢卢脛脟脙麓脟毛脠路卤拢脮芒赂枚脪鲁脙忙脭脷SSL脧脗脭脣脨脨隆拢
+      路帽脭貌露脭禄掳驴貌禄谩戮炉赂忙脫脙禄搂脣没脙脟碌脛脨脜脧垄驴脡脛脺虏禄脛脺碌脙碌陆掳虏脠芦卤拢脮脧隆拢
 ---
 {% wrap content %}
 
@@ -54,21 +54,21 @@ remember:
 
 {% include modules/takeaway.liquid list=page.key-takeaways.choose-best-input-type %}
 
-### HTML5 输入类型
+### HTML5 脢盲脠毛脌脿脨脥
 
-HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘布局。用户能够更加容易输入所需信息，而不必切换他们的键盘，而且，用户只会看到适合当前输入类型的按键。
+HTML5 陆茅脡脺脕脣脪禄脧碌脕脨脨脗碌脛脢盲脠毛脌脿脨脥隆拢脮芒脨漏脨脗路陆掳赂脤谩脢戮盲炉脌脌脝梅脫娄赂脙脦陋脝脕脛禄录眉脜脤脧脭脢戮脭玫脩霉碌脛录眉脜脤虏录戮脰隆拢脫脙禄搂脛脺鹿禄赂眉录脫脠脻脪脳脢盲脠毛脣霉脨猫脨脜脧垄拢卢露酶虏禄卤脴脟脨禄禄脣没脙脟碌脛录眉脜脤拢卢露酶脟脪拢卢脫脙禄搂脰禄禄谩驴麓碌陆脢脢潞脧碌卤脟掳脢盲脠毛脌脿脨脥碌脛掳麓录眉隆拢
 
 <table class="table-2 inputtypes">
   <thead>
     <tr>
-      <th data-th="Input type">输入<code>类型</code></th>
-      <th data-th="Typical keyboard">标准键盘</th>
+      <th data-th="Input type">脢盲脠毛<code>脌脿脨脥</code></th>
+      <th data-th="Typical keyboard">卤锚脳录录眉脜脤</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td data-th="Input type">
-        <code>url</code><br>输入一个网址，必须以有效的网址组合开始，例如： <code>http://</code>, <code>ftp://</code>或者<code>mailto:</code>.
+        <code>url</code><br>脢盲脠毛脪禄赂枚脥酶脰路拢卢卤脴脨毛脪脭脫脨脨搂碌脛脥酶脰路脳茅潞脧驴陋脢录拢卢脌媒脠莽拢潞 <code>http://</code>, <code>ftp://</code>禄貌脮脽<code>mailto:</code>.
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/url-ios.png" srcset="imgs/url-ios.png 1x, imgs/url-ios-2x.png 2x">
@@ -76,7 +76,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>tel</code><br>输入电话号码，<b>并不</b>存在强制特定的有效结构。所以如果你想确定一个特定格式，你可以使用pattern。
+        <code>tel</code><br>脢盲脠毛碌莽禄掳潞脜脗毛拢卢<b>虏垄虏禄</b>麓忙脭脷脟驴脰脝脤脴露篓碌脛脫脨脨搂陆谩鹿鹿隆拢脣霉脪脭脠莽鹿没脛茫脧毛脠路露篓脪禄赂枚脤脴露篓赂帽脢陆拢卢脛茫驴脡脪脭脢鹿脫脙pattern隆拢
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/tel-android.png" srcset="imgs/tel-android.png 1x, imgs/tel-android-2x.png 2x">
@@ -84,7 +84,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>email</code><br>输入邮件地址，@符号应该默认出现在键盘上。如果要提供不止一个邮件地址，你可以添加多属性实现。
+        <code>email</code><br>脢盲脠毛脫脢录镁碌脴脰路拢卢@路没潞脜脫娄赂脙脛卢脠脧鲁枚脧脰脭脷录眉脜脤脡脧隆拢脠莽鹿没脪陋脤谩鹿漏虏禄脰鹿脪禄赂枚脫脢录镁碌脴脰路拢卢脛茫驴脡脪脭脤铆录脫露脿脢么脨脭脢碌脧脰隆拢
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/email-android.png" srcset="imgs/email-android.png 1x, imgs/email-android-2x.png 2x">
@@ -92,7 +92,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>search</code><br>文本输入区域的风格和平台搜索区域的风格是一致的。
+        <code>search</code><br>脦脛卤戮脢盲脠毛脟酶脫貌碌脛路莽赂帽潞脥脝陆脤篓脣脩脣梅脟酶脫貌碌脛路莽赂帽脢脟脪禄脰脗碌脛隆拢
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/plain-ios.png" srcset="imgs/plain-ios.png 1x, imgs/plain-ios-2x.png 2x" class="keybimg">
@@ -100,7 +100,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>number</code><br>输入数值，这些数字可以是任何合理的整数或是浮点数。
+        <code>number</code><br>脢盲脠毛脢媒脰碌拢卢脮芒脨漏脢媒脳脰驴脡脪脭脢脟脠脦潞脦潞脧脌铆碌脛脮没脢媒禄貌脢脟赂隆碌茫脢媒隆拢
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/number-android.png" srcset="imgs/number-android.png 1x, imgs/number-android-2x.png 2x" class="keybimg">
@@ -108,7 +108,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>range</code><br>输入数值，但因其值并不重要而不同于数字输入类型。它会以滑块控件的形式显示在用户面前。
+        <code>range</code><br>脢盲脠毛脢媒脰碌拢卢碌芦脪貌脝盲脰碌虏垄虏禄脰脴脪陋露酶虏禄脥卢脫脷脢媒脳脰脢盲脠毛脌脿脨脥隆拢脣眉禄谩脪脭禄卢驴茅驴脴录镁碌脛脨脦脢陆脧脭脢戮脭脷脫脙禄搂脙忙脟掳隆拢
 </td>
       <td data-th="Typical keyboard">
         <img src="imgs/range-ios.png">
@@ -116,7 +116,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>datetime-local</code><br>在本地时区下输入一个日期值和时间值。
+        <code>datetime-local</code><br>脭脷卤戮碌脴脢卤脟酶脧脗脢盲脠毛脪禄赂枚脠脮脝脷脰碌潞脥脢卤录盲脰碌隆拢
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/datetime-local-ios.png" srcset="imgs/datetime-local-ios.png 1x, imgs/datetime-local-ios-2x.png 2x">
@@ -124,7 +124,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>date</code><br>仅输入一个日期值，而且不提供时区。
+        <code>date</code><br>陆枚脢盲脠毛脪禄赂枚脠脮脝脷脰碌拢卢露酶脟脪虏禄脤谩鹿漏脢卤脟酶隆拢
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/date-android.png" srcset="imgs/date-android.png 1x, imgs/date-android-2x.png 2x">
@@ -132,7 +132,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>time</code><br>仅输入一个时间值，而且不提供时区。
+        <code>time</code><br>陆枚脢盲脠毛脪禄赂枚脢卤录盲脰碌拢卢露酶脟脪虏禄脤谩鹿漏脢卤脟酶隆拢
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/time-ios.png" srcset="imgs/time-ios.png 1x, imgs/time-ios-2x.png 2x">
@@ -140,7 +140,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>week</code><br>仅输入一个星期值，而且不提供时区。      
+        <code>week</code><br>陆枚脢盲脠毛脪禄赂枚脨脟脝脷脰碌拢卢露酶脟脪虏禄脤谩鹿漏脢卤脟酶隆拢      
 </td>
       <td data-th="Typical keyboard">
         <img src="imgs/week-android.png" srcset="imgs/week-android.png 1x, imgs/week-android-2x.png 2x">
@@ -148,7 +148,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>month</code><br>仅输入一个月份值，而且不提供时区。
+        <code>month</code><br>陆枚脢盲脠毛脪禄赂枚脭脗路脻脰碌拢卢露酶脟脪虏禄脤谩鹿漏脢卤脟酶隆拢
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/month-ios.png" srcset="imgs/month-ios.png 1x, imgs/month-ios-2x.png 2x">
@@ -156,7 +156,7 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
     </tr>
     <tr>
       <td data-th="Input type">
-        <code>color</code><br>选择一个颜色。
+        <code>color</code><br>脩隆脭帽脪禄赂枚脩脮脡芦隆拢
       </td>
       <td data-th="Typical keyboard">
         <img src="imgs/color-android.png" srcset="imgs/color-android.png 1x, imgs/color-android-2x.png 2x">
@@ -165,9 +165,9 @@ HTML5 介绍了一系列新的输入类型。这些新方案提示浏览器应该为屏幕键盘显示怎样的键盘
   </tbody>
 </table>
 
-### 在输入时用datalist提供建议
+### 脭脷脢盲脠毛脢卤脫脙datalist脤谩鹿漏陆篓脪茅
 
-`datalist`元素并不是一种输入类型，它是一个建议输入内容的列表，并和表单字段相关。在用户输入的时候，它让浏览器给用户推荐自动完成的选项。不像选择元素，用户必须浏览冗长的列表来搜寻他们所寻找的值，并且限制用户停留在列表上。`datalist`只在用户输入时会提供提示。
+`datalist`脭陋脣脴虏垄虏禄脢脟脪禄脰脰脢盲脠毛脌脿脨脥拢卢脣眉脢脟脪禄赂枚陆篓脪茅脢盲脠毛脛脷脠脻碌脛脕脨卤铆拢卢虏垄潞脥卤铆碌楼脳脰露脦脧脿鹿脴隆拢脭脷脫脙禄搂脢盲脠毛碌脛脢卤潞貌拢卢脣眉脠脙盲炉脌脌脝梅赂酶脫脙禄搂脥脝录枚脳脭露炉脥锚鲁脡碌脛脩隆脧卯隆拢虏禄脧帽脩隆脭帽脭陋脣脴拢卢脫脙禄搂卤脴脨毛盲炉脌脌脠脽鲁陇碌脛脕脨卤铆脌麓脣脩脩掳脣没脙脟脣霉脩掳脮脪碌脛脰碌拢卢虏垄脟脪脧脼脰脝脫脙禄搂脥拢脕么脭脷脕脨卤铆脡脧隆拢`datalist`脰禄脭脷脫脙禄搂脢盲脠毛脢卤禄谩脤谩鹿漏脤谩脢戮隆拢
 
 {% include_code _code/order.html datalist %}
 
