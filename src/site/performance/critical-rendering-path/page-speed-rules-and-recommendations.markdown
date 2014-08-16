@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "PageSpeed Rules and Recommendations"
-description: "PageSpeed Insights rules in context: what to pay attention to when optimizing the Critical Rendering Path and why."
-introduction: "PageSpeed Insights rules in context: what to pay attention to when optimizing the Critical Rendering Path and why."
+title: "PageSpeed规则以及建议"
+description: "PageSpeed规则总结：优化关键的渲染路径是需要注意什么以及为什么这样做。"
+introduction: "PageSpeed规则总结：优化关键的渲染路径是需要注意什么以及为什么这样做。"
 article:
   written_on: 2014-04-01
   updated_on: 2014-04-28
@@ -11,41 +11,41 @@ collection: critical-rendering-path
 ---
 {% wrap content %}
 
-## Eliminate render-blocking JavaScript and CSS
+## 去除阻碍仍显的JavaScript脚本和CSS
 
-To deliver the fastest time to first render, you want to minimize and (where possible) eliminate the number of critical resources on the page, minimize the number of downloaded critical bytes, and optimize the critical path length.
+为了最快进行第一次页面呈现，你试图减小并（如果可能）去除页面上关键资源的数量，减少下载关键字节数，并优化关键路径长度。
 
-## Optimize JavaScript Use
+## 优化JavaScript的使用
 
-JavaScript resources are parser blocking by default unless marked as _async_ or added via a special JavaScript snippet. Parser blocking JavaScript forces the browser to wait for the CSSOM and pauses construction of the DOM, which in turn can significantly delay the time to first render.
+Javascript资源在默认情况下阻塞解析器除非标志为异步或者通过一个特殊的Javascript片段进行添加。解析器阻塞Javascript会强制浏览器等待CSSOM并暂停DOM的生成，这些就大大延迟了页面第一次呈现的时间。
 
-### **Prefer async JavaScript resources**
+### **偏向异步JavaScript资源**
 
-Async resources unblock the document parser and allow the browser to avoid blocking on CSSOM prior to executing the script. Often, if the script can be made async, it also means it is not essential for the first render - consider loading async scripts after the initial render.
+异步资源不会阻塞文档解析器并允许浏览器在执行脚本前避免CSSOM阻塞。通常，如果脚本设为异步，这也意味着它在第一次渲染呈现时并不是必需的——在最初呈现后再考虑异步的脚本。
 
-### **Defer parsing JavaScript**
+### **推迟解析JavaScript**
 
-Any non-essential scripts that are not critical to constructing the visible content for the initial render should be deferred to minimize the amount of work the browser has to perform to render the page.
+任何对构建初始页面可见内容不关键不必要的脚本应当延迟以减少浏览器呈现页面的工作量。
 
-### **Avoid long running JavaScript**
+### **避免长时间运行JavaScript**
 
-Long running JavaScript blocks the browser from constructing the DOM, CSSOM, and rendering the page. As a result, any initialization logic and functionality that is non-essential for the first render should be deferred until later. If a long initialization sequence needs to be run, consider splitting it into several stages to allow the browser to process other events in between.
+长时间运行的JavaScript阻碍浏览器生成DOM，CSSOM，以及页面呈现。因此，任何初始化逻辑以及功能不是第一次呈现必需的话就应该推迟。如果一个较长的初始化队列需要运行，考虑将它划分成多个阶段依次保证浏览器能处理其他事件。
 
-## Optimize CSS Use
+## 优化CSS使用
 
-CSS is required to construct the render tree and JavaScript will often block on CSS during initial construction of the page. You should ensure that any non-essential CSS is marked as non-critical (e.g. print and other media queries), and that the amount of critical CSS and the time to deliver it is as small as possible.
+构建呈现树结构时CSS是必需的并且Javascript通常会在初始化页面过程中阻碍CSS。你需要保证任何不必要的CSS被标记为非关键的（例如打印和其他媒体查询），而关键的CSS以及传输的时间就尽可能小。
 
-### **Put CSS in the document head**
+### **放置CSS在页头**
 
-All CSS resources should be specified as early as possible within the HTML document such that the browser can discover the `<link>` tags and dispatch the request for the CSS as soon as possible.
+所有CSS资源应该尽可能早的在HTML文档中指定这样浏览器能够发现`<link>`标签并尽快地调度CSS请求。
 
-### **Avoid CSS imports**
+### **避免CSS导入**
 
-CSS import (@import) directive enables one stylesheet to import rules from another stylesheet file. However, these directives should be avoided because they introduce additional roundtrips into the critical path: the imported CSS resources are discovered only after the CSS stylesheet with the @import rule itself has been received and parsed.
+CSS导入 (@import) 指令允许一个样式表下从另一个样式表文件中导入样式规则。然而，这些指令应当避免由于他们引入了额外的关键路径往返：这些导入的CSS资源仅在这些用@import规则CSS样式表被接收并解析后才会被发现。
 
-### **Inline render-blocking CSS**
+### **内联阻碍渲染的CSS**
 
-For best performance, you may want to consider inlining the critical CSS directly into the HTML document. This eliminates additional roundtrips in the critical path and if done correctly can be used to deliver a "one roundtrip" critical path length where only the HTML is a blocking resource.
+为了最佳性能，你可能考虑将关键样式直接内联到HTML文档中。这样消除了额外的关键路径往返以及如果这样成功了就能完成一个关键路径长度的往返，仅当这些HTML代码是一种阻塞资源时。
 
 {% include modules/nextarticle.liquid %}
 

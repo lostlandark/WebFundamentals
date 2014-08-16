@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "Measuring the Critical Rendering Path with Navigation Timing"
-description: "You can't optimize what you can't measure. Thankfully, the Navigation Timing API gives us all the necessary tools to measure each step of the critical rendering path!"
-introduction: "You can't optimize what you can't measure. Thankfully, the Navigation Timing API gives us all the necessary tools to measure each step of the critical rendering path!"
+title: "使用Navigation Timing衡量关键渲染路径"
+description: "如果你没有办法衡量性能，你就没有办法优化性能。所幸的是，Navigation Timing API提供了必备工具来衡量关键渲染路径每一步的性能。"
+introduction: "如果你没有办法衡量性能，你就没有办法优化性能。所幸的是，Navigation Timing API提供了必备工具来衡量关键渲染路径每一步的性能。"
 article:
   written_on: 2014-04-01
   updated_on: 2014-04-28
@@ -11,8 +11,8 @@ article:
 collection: critical-rendering-path
 key-takeaways:
   measure-crp:
-    - Navigation Timing provides high resolution timestamps for measuring CRP
-    - Browser emits series of consumable events which capture various stages of the CRP
+    - Navigation Timing提供了细粒度的时间戳以便衡量关键渲染路径
+    - 浏览器会在关键渲染路径的每一步中抛出可捕获的事件
 ---
 {% wrap content%}
 
@@ -30,42 +30,37 @@ key-takeaways:
 
 {% include modules/takeaway.liquid list=page.key-takeaways.measure-crp %}
 
-The foundation of every solid performance strategy is good measurement and instrumentation. Turns out, that is exactly what the Navigation Timing API provides.
+作为有效的性能策略的基础，准确的衡量和指导必不可少。这也就是Navigation Timing API为我们提供的。
 
 <img src="images/dom-navtiming.png" class="center" alt="Navigation Timing">
 
-Each of the labels in the above diagram corresponds to a high resolution timestamp that the browser tracks for each and every page it loads. In fact, in this specific case we're only showing a fraction of all the different timestamps &mdash; for now we're skipping all network related timestamps, but we'll come back to them in a future lesson.
+上图中的每一个标签代表了浏览器在跟踪页面加载时捕获的每一个细粒度时间戳。而且在这个例子中，我们也仅仅为大家展现了各种不同的时间戳中的一部分而已。我们暂且跳过所有和网络相关的时间戳，在后面的课程中还会详细介绍。
 
-So, what do these timestamps mean?
+所以，这些时间戳到底有什么含义呢？
 
-* **domLoading:** this is the starting timestamp of the entire process, the
-  browser is about to start parsing the first received bytes of the HTML
-  document.
-* **domInteractive:** marks the point when the browser has finished parsing all
-  of the HTML and DOM construction is complete.
-* **domContentLoaded:** marks the point when both the DOM is ready and there are no stylesheets that are blocking JavaScript execution - meaning we can now (potentially) construct the render tree.
-    * Many JavaScript frameworks wait for this event before they start executing their own logic. For this reason the browser captures the _EventStart_ and _EventEnd_ timestamps to allow us to track how long this execution took.
-* **domComplete:** as the name implies, all of the processing is complete and
-  all of the resources on the page (images, etc.) have finished downloading -
-  i.e. the loading spinner has stopped spinning.
-* **loadEvent:** as a final step in every page load the browser fires an
-  "onload" event which can trigger additional application logic.
+* **domLoading:** 这是整个加载进程开始的时间戳。浏览器从这个时间点开始解析收到的HTML页面的第一个字节。
+* **domInteractive:** 标记了浏览器完成解析HTML，DOM树构建完毕的时间。
+* **domContentLoaded:** 标记了DOM准备就绪且没有样式资源阻碍JavaScript执行的时间点，我们可以开始构建渲染树了。
+    * 很多JavaScript框架会在这个事件发生后才开始执行它们自己的逻辑。因此浏览器会通过捕获domContentLoadedEventStart和domContentLoadedEventEnd来计算执行框架的代码逻辑需要多长时间。
+* **domComplete:** 如名所示，所有的处理过程结束，所有的页面资源下载完成。浏览器窗口上表示页面还在加载的图标停止旋转。
+* **loadEvent:** 作为所有页面加载的最后一步，浏览器会在此时触发onLoad时间，以便开始附加的应用逻辑。
 
-The HTML specification dictates specific conditions for each and every event: when it should be fired, which conditions should be met, and so on. For our purposes, we'll focus on a few key milestones related to the critical rendering path:
+HTML的规范中指明了每一个事件的详细信息：什么时候触发，什么条件触发之类。在我们的教程中，我们会重点着眼于和关键渲染路径相关的事件：
 
-* **domInteractive** marks when DOM is ready.
-* **domContentLoaded** typically marks when [both the DOM and CSSOM are ready](http://calendar.perfplanet.com/2012/deciphering-the-critical-rendering-path/).
-    * If there is no parser blocking JavaScript than _documentContentLoaded_ will fire immediately after _domInteractive_.
-* **domComplete** marks when the page and all of its subresources are ready.
+* **domInteractive** 表示DOM准备就绪。
+* **domContentLoaded** 标志[DOM和CSSOM都准备就绪](http://calendar.perfplanet.com/2012/deciphering-the-critical-rendering-path/)。
+    * 如果没有JavaScript阻塞渲染，documentContentLoaded事件会在domInteractive事件之后立即触发。
+* **domComplete** 表示页面及其附属资源都已经准备就绪。
 
 ^
 
 {% include_code _code/measure_crp.html full html %}
 
-The above example may seem a little daunting on first sight, but in reality it is actually pretty simple. The Navigation Timing API captures all the relevant timestamps and our code simply waits for the "onload" event to fire &mdash; recall that onload event fires after domInteractive, domContentLoaded and domComplete &mdash; and computes the difference between the various timestamps.
+上面的例子咋一看可能有点晕，但是它确实已经很简单了。Navigation Timing API捕获了所有相关的时间戳，而我们的代码在等待onLoad事件 – 回忆一下上文介绍的onLoad事件，在domInteractive，domContentLoaded和domComplete之后触发 – 然后计算各个时间戳之间的间隔。
 <img src="images/device-navtiming-small.png" class="center" alt="NavTiming demo">
 
-All said and done, we now have some specific milestones to track and a simple function to output these measurements. Note that instead of printing these metrics on the page you can also modify the code to send these metrics to an analytics server ([Google Analytics does this automatically](https://support.google.com/analytics/answer/1205784?hl=en)), which is a great way to keep tabs on performance of your pages and identify candidate pages that can benefit from some optimization work.
+通过上面的介绍和示例，我们现在知道了要跟踪哪些关键节点以及一些简单的展示方法。记住，相比直接将结果显示在页面上，更常见的是将这些统计信息发送到分析服务器上。
+([Google Analytics能够自动完成此功能](https://support.google.com/analytics/answer/1205784?hl=en))，这是一种很有效的监控页面性能的方法，你也可以由此找出哪些页面还需要进一步优化性能。
 
 {% include modules/nextarticle.liquid %}
 

@@ -1,7 +1,7 @@
 ---
 layout: article
-title: "Optimizing the Critical Rendering Path"
-description: "In order to deliver the fastest possible time to first render, we need to optimize three variables: minimize the number of critical resources, minimize the number of critical bytes, and minimize the critical path length."
+title: "优化关键渲染路径"
+description: "为了使页面在第一次渲染尽快呈现,我们需要优化以下三项：减小关键资源数目，减少关键字节数目，与减小关键路径长度。"
 introduction: ""
 article:
   written_on: 2014-04-01
@@ -11,26 +11,26 @@ collection: critical-rendering-path
 ---
 {% wrap content%}
 
-In order to deliver the fastest possible time to first render, we need to optimize three variables:
+为了使页面在第一次渲染尽快呈现,我们需要优化以下三项：
 
-* **Minimize the number of critical resources.**
-* **Minimize the number of critical bytes.**
-* **Minimize the critical path length.**
+* **减小关键资源数目。**
+* **减小关键字节数目。**
+* **减小关键路径长度。**
 
-A critical resource is any resource that may block initial rendering of the page. The fewer of these resources there are on the page, the less work the browser has to do to get content on the screen, and the less contention there is for CPU and other resources.
+关键资源是那些任何可能阻碍页面渲染的资源。这类资源在页面使用的越少，浏览器在屏幕显示内容需要做的的工作就越少，内容占用的CPU及其他资源就越少。
 
-Similarly, the fewer critical bytes the browser has to download, the faster it can get to processing the content and get it visible on the screen. To reduce the number of bytes we can reduce the number of resources (eliminate them or make them non-critical), and also ensure that we minimize the transfer size by compressing and optimizing each resource.
+同样，浏览器需要下载的关键字节越少，它处理内容并将内容展示到屏幕的速度就越快。为了减少字节数量，我们可以减少资源的数目（省去它们或者让它们非关键），并确保通过压缩优化每个资源达到减少传输大小的目的。
 
-Finally, the critical path length is a function of the dependency graph between all the critical resources required by the page and their bytesize: some resource downloads can only be initiated once a previous resource has been processed, and the larger the resource the more roundtrips it will take us to download it.
+最后，关键路径长度函数为页面需要所有关键资源和资源字节大小的依赖关系图：一些资源只能在一些之前的资源处理后才能被下载，并且资源越大，需要往返下载的次数就越多。
 
-In other words, the number of resources, their bytesize, and the critical path length are related to each other, but they are not exactly the same. For example, you may not be able to reduce the number of critical resources, or shorten the critical path length, but reducing the number of critical bytes is still an important optimization &mdash; and vice versa.
+换句话说，资源数量，大小以及关键路径长度彼此相关，但是它们并不相同。例如，你可能无法减少关键资源的数量，或者没法缩短关键路径长度，但能够减少关键字节的数量，这样依然是一个重要的优化；反之亦然。
 
-**The general sequence of steps to optimize the critical rendering path is:**
+**一般优化关键渲染路径的步骤是：**
 
-1. Analyze and characterize your critical path: number of resources, bytes, length.
-1. Minimize number of critical resources: eliminate them, defer their download, mark them as async, etc.
-1. Optimize the order in which the remaining critical resources are loaded: you want to download all critical assets as early as possible to shorten the critical path length.
-1. Optimize the number of critical bytes to reduce the download time (number of roundtrips).
+1. 分析和描述你的关键路径:资源的数量,字节,长度。
+1. 减少关键资源的数量：省去它们,推迟它们的下载，标记为异步等。
+1. 优化剩余的关键资源加载顺序:缩短关键路径长度，尽早下载你想要的所有关键资源。
+1. 优化关键字节数减少下载时间(数据传输次数)。
 
 {% include modules/nextarticle.liquid %}
 

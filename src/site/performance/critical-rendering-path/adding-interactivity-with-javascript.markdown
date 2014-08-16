@@ -1,8 +1,8 @@
 ---
 layout: article
-title: "Adding Interactivity with JavaScript"
-description: "JavaScript allows us to modify just about every aspect of the page: content, styling, and its behavior to user interactions. However, JavaScript can also block DOM construction and delay when the page is rendered. Make your JavaScript async and eliminate any unnecessary JavaScript from the critical rendering path to deliver optimal performance."
-introduction: "JavaScript allows us to modify just about every aspect of the page: content, styling, and its behavior to user interactions. However, JavaScript can also block DOM construction and delay when the page is rendered. Make your JavaScript async and eliminate any unnecessary JavaScript from the critical rendering path to deliver optimal performance."
+title: "用Javascript增添交互"
+description: "使用Javascript我们能够修改页面的各个方面：内容、样式和用户交互行为。但是，Javascript也可能阻碍DOM结构的生成并延缓页面呈现。使你的Javascript脚本异步加载，并且从关键渲染路径减少任何不必要的脚本以提供最佳性能。"
+introduction: "使用Javascript我们能够修改页面的各个方面：内容、样式和用户交互行为。但是，Javascript也可能阻碍DOM结构的生成并延缓页面呈现。使你的Javascript脚本异步加载，并且从关键渲染路径减少任何不必要的脚本以提供最佳性能。"
 article:
   written_on: 2014-01-01
   updated_on: 2014-01-05
@@ -10,9 +10,9 @@ article:
 collection: critical-rendering-path
 key-takeaways:
   adding-interactivity:
-    - JavaScript can query and modify DOM and CSSOM
-    - JavaScript execution blocks on CSSOM
-    - JavaScript blocks DOM construction unless explicitly declared as async
+    - JavaScript能查找以及修改DOM和CSSOM
+    - JavaScript执行对CSSOM的阻碍
+    - JavaScript会阻碍DOM生成除非明确声明为异步加载
 ---
 {% wrap content %}
 
@@ -32,43 +32,43 @@ key-takeaways:
 
 {% include modules/takeaway.liquid list=page.key-takeaways.adding-interactivity %}
 
-JavaScript is a dynamic language that runs in the browser and allows us to alter just about every aspect of how the page behaves: we can modify content on the page by adding or removing elements from the DOM tree, we can modify the CSSOM properties of each element, we can handle user input, and much more. To illustrate this in action, let's augment our previous "Hello World" example with a simple inline script:
+浏览器中运行的JavaScript是一种动态语言，这能让我们更改页面运行的各个方面：我们可以在DOM树上添加或删除元素修改页面内容,我们可以修改CSSOM中每个元素的属性,我们可以处理用户输入,等等。为了说明这一点,让我们继续讨论我们的前面的“Hello World”示例，用一个简单的内联脚本：
 
 {% include_code _code/script.html full %}
 
-* JavaScript allows us to reach into the DOM and pull out the reference to the hidden span node - the node may not be visible in the render tree, but it's still there in the DOM! Then, once we have the reference, we can change its text (via .textContent), and even override its calculated display style property from ‘none' to ‘inline'. Once all is said and done, our page will now display "**Hello interactive students!**".
+* JavaScript让我们能得到DOM，并拉取到与之相关的隐藏的span节点—这个节点在渲染树上可能看不见，但它还是存在于DOM中的！然后，一旦得到了这个节点的引用，我们就可以修改它的文本（通过textContent），甚至覆盖它之前计算好的display属性，从’none’到’inline’。一旦所有的都完成了，页面将会显示 "**Hello interactive students!**".
 
-* JavaScript also allows us to create, style, and append and remove new elements to the DOM. In fact, technically our entire page could be just one big JavaScript file which creates and styles the elements one by one - that would work, but working with HTML and CSS is much easier in practice. In the second part of our JavaScript function we create a new div element, set its text content, style it, and append it to the body.
+* JavaScript也能让我们创建样式，在DOM中添加或移除元素。实际上，从技术上来说整个页面都可以写成一个大的JavaScript文件，它会一个接一个地创建元素并设计元素的样式 — 那样也能够做到，但是在实际中用HTML和CSS来做更容易一些。在JavaScript方法中的第二部分，我们创建了一个新的div元素，设置了它的文本内容，赋予了它样式，并且把它添加到了body中。
 
 <img src="images/device-js-small.png" class="center" alt="page preview">
 
-With that, we've modified the content and the CSS style of an existing DOM node, and added an entirely new node to the document. Our page won't win any design awards, but it illustrates the power and flexibility that JavaScript affords us.
+那样做以后，我们修改了一个已存在的DOM节点的内容和CSS样式，并添加了一个全新的节点到文本中。我们的页面不会赢得任何设计奖，但是它说明了JavaScript提供给我们的能力和灵活性。
 
-However, there is a big performance caveat lurking underneath. JavaScript affords us a lot of power, but it also creates a lot of additional limitations on how and when the page is rendered.
+然而，在其表面下潜藏着一个巨大的性能隐患。JavaScript提供给我们许多功能，但是它同时也在怎样和何时渲染页面方面产生了许多额外的限制。
 
-First, notice that in the above example our inline script is near the bottom of the page. Why? Well, you should try it yourself, but if we move the script above the _span_ element, you'll notice that the script will fail and complain that it cannot find a reference to any _span_ elements in the document - i.e. _getElementsByTagName(‘span')_ will return _null_. This demonstrates an important property: our script is executed at the exact point where it is inserted in the document. When the HTML parser encounters a script tag, it pauses its process of constructing the DOM and yields control over to the JavaScript engine; once the JavaScript engine has finished running, the browser then picks up from where it left off and resumes the DOM construction.
+首先，注意一下在上面的例子中，内联的脚本是在页面下部的。为什么？好吧，你应该自己试一下，但是如果把脚本移到span元素的上面，你会注意到脚本会执行失败，并报出警告说它无法在文本中找到任何span元素 — 例如，getElementsByTagName(‘span’)会返回null。这证明了一个重要了特性：脚本是在它被插入到文本中的位置处执行的。当HTML解析器遇到一个脚本标签时，它会暂停对构建DOM的处理，并让出控制权给JavaScript引擎。一旦JavaScript引擎完成了运行，浏览器再从之前中断的地方重新开始，并继续进行DOM构建。
 
-In other words, our script block can't find any elements later in the page because they haven't been processed yet! Or, put slightly differently: **executing our inline script blocks DOM construction, which will also delay the initial render.**
+换句话说，脚本块找不到任何页面后面的元素，因为他们还没有被创建！或者，略微不同地表达一下：**执行内联脚本会阻塞DOM的构建，这也会延迟页面的初次渲染。**
 
-Another subtle property of introducing scripts into our page is that they can read and modify not just the DOM, but also the CSSOM properties. In fact, that's exactly what we're doing in our example when we change the display property of the span element from none to inline. The end result? We now have a race condition.
+把脚本引入到页面中的另一个巧妙的好处是，它们可以读取和修改的不仅仅是DOM，还有CSSOM属性。实际上，那正是我们在例子中所做的，我们把span元素的显示属性从none改变为inline。最后的结果是什么？我们现在有了一个竞争条件。
 
-What if the browser hasn't finished downloading and building the CSSOM when we want to run our script? The answer is simple and not very good for performance: **the browser will delay script execution until it has finished downloading and constructing the CSSOM, and while we're waiting, the DOM construction is also blocked!**
+假如浏览器在我们运行脚本时还没有完成CSSOM的下载和创建会怎么样？答案很简单，并且对于性能不会很好：**浏览器会延迟脚本的执行，直到它完成了CSSOM的下载和构建，当我们在等待时，DOM的构建也被阻塞了！**
 
-In short, JavaScript introduces a lot of new dependencies between the DOM, CSSOM, and JavaScript execution and can lead to significant delays in how quickly the browser can process and render our page on the screen:
+简单来说，JavaScript引入了许多DOM、CSSDOM和JavaScript执行之间的依赖，并且在浏览器如何快速处理和渲染页面到屏幕上时产生了严重的延迟：
 
-1. The location of the script in the document is significant
-1. DOM construction is paused when a script tag is encountered and until the script has finished executing
-1. JavaScript can query and modify the DOM and CSSOM
-1. JavaScript execution is delayed until the CSSOM is ready
+1. 脚本在文本中的位置是很关键的
+1. 当遇到script标签时DOM的构建会被暂停，直到脚本完成了执行
+1. JavaScript可以查询和修改DOM和CSSOM
+1. 直到CSSOM准备好了，JavaScript才会执行
 
-When we talk about "optimizing the critical rendering path," to a large degree we're talking about understanding and optimizing the dependency graph between HTML, CSS, and JavaScript.
+当我们讨论“优化关键渲染路径”时，更大程度上是在讨论理解和优化HTML、CSS和JavaScript之间的依赖关系。
 
 
-## Parser Blocking vs. Asynchronous JavaScript
+## 阻塞解析器和异步的JavaScript
 
-By default, JavaScript execution is "parser blocking": when the browser encounters a script in the document it must pause DOM construction, hand over the control to the JavaScript runtime and let the script execute before proceeding with DOM construction. We already saw this in action with an inline script in our earlier example. In fact, inline scripts are always parser blocking unless you take special care and write additional code to defer their execution.
+在默认情况下，JavaScript的执行是会“阻塞解析器”的：当浏览器在文本中遇到一个script时，它必须停止DOM的构建，让出控制权给JavaScript来运行，在继续构建DOM之前让脚本来执行。我们已经在前面的例子中使用了一个内联的脚本的行动中看到了这个。实际上，内联的脚本通常是会阻塞解析器的，除非你特别的进行了处理，写了一些额外的代码来延迟它们的执行。
 
-What about scripts included via a script tag? Let's take our previous example and extract our code into a separate file:
+通过script标签引入的脚本是怎样的呢？拿之前的例子来说，把代码抽出来放到一个单独的文件里：
 
 {% include_code _code/split_script.html full %}
 
@@ -76,15 +76,15 @@ What about scripts included via a script tag? Let's take our previous example an
 
 {% include_code _code/app.js full javascript %}
 
-Would you expect the execution order to be any different when we use a `<script>` tag instead of using an inline JavaScript snippet? Of course, the answer is "no" as they are identical and should behave in the same way. In both cases the browser will have to pause and execute the script before it can process the remainder of the document. However, **in the case of an external JavaScript file the browser will also have to pause and wait for the script to be fetched from disk, cache, or a remote server, which can add tens to thousands of milliseconds of delay to the critical rendering path.**
+当使用`<script>`标签而不是使用内联的JavaScript片段时，你认为执行顺序会不同吗？当然，答案是“no”，因为他们是一样的，并且以相同的方式表现。在这两种情况下，浏览器都会在它能够处理余下的文本之前，暂停并执行脚本。然而， **在使用外部的JavaScript文件的情况下，浏览器将不得不暂停解析，等待从磁盘、缓存或远程服务器上获取这个脚本，这会给关键渲染路径增加数十到数千毫秒的延迟。**
 
-That said, good news, we do have an escape hatch! By default all JavaScript is parser blocking and the browser doesn't know what the script is planning to do on the page, hence it has to assume the worst case scenario and block the parser. However, what if we could signal to the browser and tell it that the script does not need to be executed at the exact point where it is referenced in the document? Doing so would allow the browser to continue to construct the DOM and let the script execute once it's ready - e.g. once the file has been fetched from cache or a remote server.
+从另一个角度来看，这也是一个好消息，给我们带来另一种解决方案！默认情况下，JavaScript是会阻塞解析器的，浏览器并不知道脚本计划在页面上做什么，因此它不得不假定最坏的情况，并阻塞解析器。然而，如果我们可以给浏览器一个标识呢，告诉它脚本不必在它被引入到文件里的位置处执行。这样做就可以让浏览器继续构建DOM，让脚本在它准好以后再执行 — 例如，文件已经从缓存或远程服务器上获取到。
 
-So, how do we achieve this trick? It's pretty simple, we can mark our script as _async_:
+那么，我们怎样来实现这一方法呢？相当的简单，我们可以把脚本标记为async：
 
 {% include_code _code/split_script_async.html full %}
 
-Adding the async keyword to the script tag tells the browser that it should not block the DOM construction while it waits for the script to become available - this is a huge performance win!
+添加async关键词到script标签中，在浏览器等待脚本变得可用时，告诉它不必阻塞DOM的构建 — 这是在性能上是一个巨大的优势！
 
 {% include modules/nextarticle.liquid %}
 
