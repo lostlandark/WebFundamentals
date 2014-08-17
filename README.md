@@ -2,7 +2,10 @@
 
 ## Project Completed, updating credts...
 
-### Credits (Thanks to all the translators participated in this project, your efforts and contribution are much appreciated.)
+### Credits (Thanks to all the translators participated in this project, your efforts and contribution are much appreciated.) PS: names are in both Chinese(GBK) and English (duh), check your encoding if can't read. 
+
+_@阿布_ (hikarievo)
+
 
 
 ---
