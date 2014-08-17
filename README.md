@@ -1,6 +1,11 @@
 # Web Fundamentals - Simplified Chinese
 
-## Project Completed
+## Project Completed, updating credts...
+
+### Credits (Thanks to all the translators participated in this project, your efforts and contribution are much appreciated.)
+
+
+---
 
 - [x] Getting Started **@lostlandark**
   - [x] Content Structure **@lostlandark**
