@@ -15,13 +15,13 @@ PS: names are in both Chinese(GBK) and English (duh), check your encoding if can
 - **kami**
 _the list goes on_
 
----
+===
 
 - [x] Getting Started **@lostlandark**
   - [x] Content Structure **@lostlandark**
   - [x] Responsive Layout **@lostlandark**
 
----
+===
 
 - [x] Multi-device Layouts **@lostlandark**
     - [x] Responsive Web Design Fundamentals **example**
@@ -41,7 +41,7 @@ _the list goes on_
       - [x] Navigation drawer **@somanybubububu**
       - [x] Bottom bar **@somanybubububu**
 
----
+===
 
 - [x] Form and user input
   - [x] Create Amazing Forms **@tiger**
@@ -54,7 +54,7 @@ _the list goes on_
     - [x] Stateful Elements Respond to Touch  **@tiger**
     - [x] Implement Custom Gestures  **@portrayals**
 
----
+===
 
 - [x] Introduction to Media **@tofu**
   - [x] Images **@tofu**
@@ -67,7 +67,7 @@ _the list goes on_
     - [x] Quick Reference **@somanybubububu**
   - [ ] ~~Audio~~ (content under development)
 
----
+===
 
 - [x] Performance
   - [x] Critical path rendering **@tofu**
@@ -84,7 +84,7 @@ _the list goes on_
     - [x] Optimizing encoding and transfer size of text-based assets **@somanybubububu**
     - [x] HTTP caching **@somanybubububu**
 
----
+===
 
 - [x] Resources **@somanybubububu**
   - [x] Glossary
