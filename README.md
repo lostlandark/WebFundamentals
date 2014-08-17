@@ -11,30 +11,30 @@ PS: names are in both Chinese(GBK) and English (duh), check your encoding if can
 - **Tiger**
 - **Elk Ryan (龙凯)**
 - **Vajoy**
-- **Pellegrino (蔡菜寀)**
+- **Cai (蔡菜寀)**
 - **kami**
 - _the list goes on..._
 
 ===
 
-- [x] Getting Started **@lostlandark**
-  - [x] Content Structure **@lostlandark**
-  - [x] Responsive Layout **@lostlandark**
+- [x] Getting Started **unknown**
+  - [x] Content Structure **unknown**
+  - [x] Responsive Layout **unknown**
 
 ===
 
-- [x] Multi-device Layouts **@lostlandark**
-    - [x] Responsive Web Design Fundamentals **example**
-      - [x] Set the viewport **example**
-      - [x] Size content to the viewport **example**
-      - [x] Use CSS media queries for responsiveness **example**
-      - [x] How to choose breakpoints **example**
+- [x] Multi-device Layouts **unknown**
+    - [x] Responsive Web Design Fundamentals **unknown**
+      - [x] Set the viewport **unknown**
+      - [x] Size content to the viewport **unknown**
+      - [x] Use CSS media queries for responsiveness **unknown**
+      - [x] How to choose breakpoints **unknown**
     - [x] Responsive Web Deisgn Patterns **@Pellegrino**
-      - [x] Mostly fluid **forgot**
-      - [x] Column Drop **forgot**
-      - [x] Layout shifter **forgot**
-      - [x] Tiny tweaks **forgot**
-      - [x] Off canvas **forgot**
+      - [x] Mostly fluid **unknown**
+      - [x] Column Drop **unknown**
+      - [x] Layout shifter **unknown**
+      - [x] Tiny tweaks **unknown**
+      - [x] Off canvas **unknown**
     - [x] Navigation and Action Patterns **@Pellegrino**
       - [x] App bar **@somanybubububu**
       - [x] Tab bar **@somanybubububu**
