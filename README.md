@@ -5,13 +5,13 @@
 ### Credits (Thanks to all the translators participated in this project, your efforts are much appreciated and you have my respect for contributing.) PS: names are in both Chinese(GBK) and English (duh), check your encoding if can't read. 
 
 - **hikarievo (阿布)**
-- **tofu (豆腐) **
+- **tofu (豆腐)**
 - **Tiger**
-- **Elk Ryan （龙凯）**
+- **Elk Ryan (龙凯)**
 - **Vajoy**
 - **Pellegrino**
 - **kami**
-
+- _the list goes on_
 ---
 
 - [x] Getting Started **@lostlandark**
