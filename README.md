@@ -13,7 +13,7 @@ PS: names are in both Chinese(GBK) and English (duh), check your encoding if can
 - **Vajoy**
 - **Pellegrino**
 - **kami**
-- _the list goes on_
+- _the list goes on..._
 
 ===
 
