@@ -8,7 +8,7 @@
 PS: names are in both Chinese(GBK) and English (duh), check your encoding if can't read. 
 
 - **hikarievo (阿布)**
-- **tofu (豆腐)**
+- **RyanY (余然)**
 - **Tiger**
 - **Elk Ryan (龙凯)**
 - **Vajoy**
