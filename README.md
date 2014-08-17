@@ -4,13 +4,13 @@
 
 ### Credits (Thanks to all the translators participated in this project, your efforts are much appreciated and you have my respect for contributing.) PS: names are in both Chinese(GBK) and English (duh), check your encoding if can't read. 
 
-- **阿布 _aka_ hikarievo**
-- **丸豆腐 _aka_ tofu**
-- **Tiger**
-- **龙凯 _aka_ Elk Ryan**
-- **Vajoy**
-- **Pellegrino**
-- **kami**
+**hikarievo (阿布)**
+**tofu (豆腐) **
+**Tiger**
+**Elk Ryan （龙凯）**
+**Vajoy**
+**Pellegrino**
+**kami**
 
 ---
 
