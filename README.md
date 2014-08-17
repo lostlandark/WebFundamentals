@@ -11,7 +11,7 @@ PS: names are in both Chinese(GBK) and English (duh), check your encoding if can
 - **Tiger**
 - **Elk Ryan (龙凯)**
 - **Vajoy**
-- **Pellegrino 括弧**
+- **Pellegrino (蔡菜寀)**
 - **kami**
 - _the list goes on..._
 
