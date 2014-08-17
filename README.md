@@ -2,6 +2,7 @@
 
 ## Project Completed, updating credts...
 
+### An open-source project initiated by uisdc.com, one of the largest platform of Chinese Web Industry.
 ### Credits (Thanks to all the translators participated in this project, your efforts are much appreciated and you have my respect for contributing.) 
 
 PS: names are in both Chinese(GBK) and English (duh), check your encoding if can't read. 
