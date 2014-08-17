@@ -15,7 +15,7 @@ PS: names are in both Chinese(GBK) and English (duh), check your encoding if can
 - **kami**
 _the list goes on_
 
-===
+---
 
 - [x] Getting Started **@lostlandark**
   - [x] Content Structure **@lostlandark**
