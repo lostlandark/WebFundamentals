@@ -9,9 +9,9 @@ PS: names are in both Chinese(GBK) and English (duh), check your encoding if can
 
 - **hikarievo (阿布)**
 - **RyanY (余然)**
-- **Tiger**
+- **Linghanmin Liu (Tiger) or (刘翎汉民)** #geez...
 - **Elk Ryan (龙凯)**
-- **Vajoy**
+- **Vajoy (蓝邦珏)**
 - **Cai (蔡菜寀)**
 - **kami**
 - _the list goes on..._
